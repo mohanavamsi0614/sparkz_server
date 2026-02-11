@@ -12,6 +12,9 @@ app.use(express.json())
 app.use("/user",user)
 app.use("/admin",admin)
 app.use("/event",event)
+app.get('/',(req,res)=>{
+    res.send("hello")
+})
 app.listen(6500,async()=>{
     await connect()
     console.log("listening...")
