@@ -1,0 +1,1823 @@
+[
+  {
+    "id": 1,
+    "title": "Dance Battle",
+    "tagline": "The Ultimate Battle of Dance",
+    "category": "dance",
+    "day": "1",
+    "date": "Feb 27",
+    "time": "11:00 AM",
+    "venue": "Indoor stadium",
+    "eventMode": "Offline",
+    "posterColor": "from-blue-600/90 via-purple-600/80 to-blue-900/90",
+    "gradient": "linear-gradient(135deg, rgba(37, 99, 235, 0.9), rgba(147, 51, 234, 0.8), rgba(30, 64, 175, 0.9))",
+    "image": "/images/events/1.jpg",
+    "featured": true,
+    "seats": "Limited",
+    "participants": "50+ Teams",
+    "description": "Witness the clash of musical titans in this epic battle of bands. Rock, metal, and indie bands compete for the ultimate title.",
+    "club": "Fine Arts Club",
+    "eventCoordinators" : ["Thamarai Selvan - 8870804719", "Pavithra - 8438657804"],
+    "rules": [
+      "Each team must consist of 5-10 members.",
+      "Dance styles can include hip-hop, contemporary, classical, and fusion.",
+      "Teams will be judged on choreography, synchronization, creativity, and overall performance.",
+      "Use of props is allowed but must be managed by the team.",
+      "Time limit for performances is 5-7 minutes."
+    ]
+  },
+  {
+  "id": 2,
+  "title": "VALORANT",
+  "tagline": "Online Tactical Esports Tournament",
+  "category": "gaming",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Online",
+  "venue": "Online",
+  "eventMode": "Online",
+  "posterColor": "from-red-600/90 via-black/80 to-gray-900/90",
+  "gradient": "linear-gradient(135deg, rgba(220, 38, 38, 0.9), rgba(0, 0, 0, 0.8), rgba(17, 24, 39, 0.9))",
+  "image": "/images/events/2.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "5 Players per Team",
+  "description": "A competitive online VALORANT event where teamwork, strategy, and skill decide the winner. Teams compete in elimination matches using standard competitive settings.",
+  "club": "FAC",
+  "eventCoordinators": [
+    "Ashika - 7358942335",
+    "Surya - 9182342796"
+  ],
+  "rules": [
+    "Each team must consist of 5 players.",
+    "One substitute player is allowed (optional).",
+    "Matches will be played in Standard Competitive Mode (subject to change based on number of teams).",
+    "Tournament format is Single Elimination.",
+    "Server will be Mumbai or the nearest available server.",
+    "Map selection will be elimination-based.",
+    "Players are responsible for their own internet connection and devices.",
+    "Teams must report on time.",
+    "Late reporting may result in a walkover.",
+    "Cheating, misconduct, or rule violations will lead to disqualification.",
+    "Failure to report on time may result in disqualification."
+  ]
+},
+
+  {
+  "id": 3,
+  "title": "Group Dance",
+  "tagline": "Rhythm, Unity & Expression",
+  "category": "dance",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "Dr. K.S. Krishnan Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-pink-600/90 via-purple-600/80 to-indigo-900/90",
+  "gradient": "linear-gradient(135deg, rgba(219, 39, 119, 0.9), rgba(147, 51, 234, 0.8), rgba(49, 46, 129, 0.9))",
+  "image": "/images/events/3.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "5–20 Members per Team",
+  "description": "Group Dance is a vibrant offline event where teams showcase coordination, creativity, and expression through dance. Participants are free to explore any genre, language, or theme while delivering a synchronized and energetic performance.",
+  "club": "Fine Arts Club",
+  "eventCoordinators": [
+    "Devavarshini - 6369121619",
+    "Indraja"
+  ],
+  "rules": [
+    "Each team must have a minimum of 5 and a maximum of 20 members.",
+    "Performance duration must be between 2.5 minutes and 5 minutes.",
+    "Teams not following the rules will be directly disqualified.",
+    "Any language, genre, or theme may be used.",
+    "Costumes should not be overly revealing.",
+    "Any vulgar or offensive actions in choreography will not be entertained.",
+    "Use of props is allowed and must be arranged by the participants.",
+    "Songs must be in MP3 format and submitted in a pendrive before the event.",
+    "Judging will be based on creativity, costume, musicality, and coordination.",
+    "Judges’ decision will be final."
+  ]
+},
+
+  {
+  "id": 4,
+  "title": "Fireless Cooking",
+  "tagline": "Innovation Without Fire",
+  "category": "cooking",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "7th Block Classroom (7204)",
+  "eventMode": "Offline",
+  "posterColor": "from-green-600/90 via-lime-500/80 to-emerald-900/90",
+  "gradient": "linear-gradient(135deg, rgba(22, 163, 74, 0.9), rgba(132, 204, 22, 0.8), rgba(6, 95, 70, 0.9))",
+  "image": "/images/events/4.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "2 to 3 Participants per Team",
+  "description": "This event is a collaboration between Yuva Tourism Club and Green Army Club. It is a spicy challenge where participants work as a team to prepare a dish without the assistance of fire. The event focuses on innovation, presentation, and taste to reward the best team.",
+  "club": "Yuva Tourism Club & Green Army Club",
+  "eventCoordinators": [
+    "Kishore Kumar - 7603811623",
+    "Rishitha - 6300988145",
+    "Russel - 9894489552",
+    "Shainesh - 7708599895"
+  ],
+  "rules": [
+    "No. of participants- 2 to 3 only",
+    "There will be two rounds conducted",
+    "No precooked food is allowed",
+    "Materials required for the cooking are to be brought by participants itself.",
+    "If selected in 1st round the materials (bread, milk, jam and biscuits) for 2nd round will be provided by the committee (tasks will be held to attain the materials).",
+    "Selection will be based on the presentation and taste",
+    "Judges decision will be final"
+  ]
+},
+
+  {
+  "id": 5,
+  "title": "Travel Itinerary",
+  "tagline": "Plan the Perfect Journey",
+  "category": "tourism",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Online",
+  "venue": "7th Block Conference Hall (7201)",
+  "eventMode": "Online",
+  "posterColor": "from-sky-600/90 via-cyan-500/80 to-blue-900/90",
+  "gradient": "linear-gradient(135deg, rgba(2, 132, 199, 0.9), rgba(6, 182, 212, 0.8), rgba(30, 58, 138, 0.9))",
+  "image": "/images/events/5.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual Participants",
+  "description": "In this exciting online contest, participants will be challenged to design the ultimate travel itinerary to one or more famous destinations around the world. Whether it’s a weekend getaway or an adventurous backpacking trip, the task is to create an itinerary that blends excitement, relaxation, and cultural exploration.",
+  "club": "Yuva Tourism Club",
+  "eventCoordinators": [
+    "Kesavan - 8778342266",
+    "Hema - 8179872006"
+  ],
+  "rules": [
+    "Open to individual participants.",
+    "Submit a detailed travel itinerary (PDF, Word, or Google Slides) via email by the deadline.",
+    "Include destination(s), travel dates, activities, accommodation, transport, and budget (optional).",
+    "Itineraries must be original and creative, focusing on feasible, culturally rich experiences.",
+    "No copied content. Original work only.",
+    "One submission per person. Ensure clarity and proper organization.",
+    "Entries will be judged based on creativity, feasibility, cultural exploration, and clarity."
+  ]
+},
+  {
+  "id": 6,
+  "title": "Paint Gallery",
+  "tagline": "When Art Meets Eyes",
+  "category": "art",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "TIFAC Architecture Studio (6103)",
+  "eventMode": "Offline",
+  "posterColor": "from-amber-500/90 via-rose-500/80 to-purple-900/90",
+  "gradient": "linear-gradient(135deg, rgba(245, 158, 11, 0.9), rgba(244, 63, 94, 0.8), rgba(88, 28, 135, 0.9))",
+  "image": "/images/events/6.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual Participants",
+  "description": "Paint Gallery (When Art Meets Eyes) is an offline art event organized by the Pyros Arts Team. Participants showcase their creativity through original artworks based on a theme announced before the event, using any painting medium of their choice.",
+  "club": "Pyros Arts Team",
+  "eventCoordinators": [
+    "Hema Latha - 9342719805",
+    "Santhiya - 8838445765"
+  ],
+  "rules": [
+    "Individual participation only. Each participant can submit one artwork.",
+    "The theme will be announced before the event.",
+    "Total time allotted: 2 hours.",
+    "Participants must bring their own art materials.",
+    "Any painting medium is allowed (Watercolour, Acrylic, Poster colors, Pencil, Charcoal, Mixed media, etc.).",
+    "Judging + public voting will be considered.",
+    "Judges' decision will be final.",
+    "Judging criteria: Creativity & originality; relevance to the theme; color usage; overall presentation.",
+    "Exceeding time limits will lead to disqualification.",
+    "Plagiarism or copied artwork will result in disqualification."
+  ]
+},
+  {
+  "id": 7,
+  "title": "As You Like It",
+  "tagline": "A Celebration of Theatrical Arts",
+  "category": "theatre",
+  "day": "Day 2",
+  "date": "Day 2",
+  "time": "Offline",
+  "venue": "8th Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-fuchsia-600/90 via-indigo-600/80 to-slate-900/90",
+  "gradient": "linear-gradient(135deg, rgba(192, 38, 211, 0.9), rgba(79, 70, 229, 0.8), rgba(15, 23, 42, 0.9))",
+  "image": "/images/events/7.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Solo or Group (Up to 4 Members)",
+  "description": "Unleash your inner thespian in this celebration of theatrical arts. From gripping dramas to silent mimes, express emotions and stories like never before. Let the stage be your canvas and your talent the masterpiece. A theatrical showdown awaits.",
+  "club": "Pyros (FAC)",
+  "eventCoordinators": [
+    "Surya - 9384166252",
+    "Jenita Angelin - 9442957777"
+  ],
+  "rules": [
+    "Creative freedom: Poetry, storytelling, comedy, dramatics, mime, or any creative performance.",
+    "Time limit: 5–8 minutes per act.",
+    "Participation is open to solo performers or groups with a maximum of 4 members.",
+    "Minimal props are allowed. Participants must handle their own setup.",
+    "Judging criteria: Creativity, originality, audience engagement, and overall impact."
+  ]
+},
+  {
+  "id": 8,
+  "title": "Cinema Quiz",
+  "tagline": "Lights, Camera, Quiz!",
+  "category": "quiz",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "8th Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-yellow-500/90 via-red-600/80 to-slate-900/90",
+  "gradient": "linear-gradient(135deg, rgba(234, 179, 8, 0.9), rgba(220, 38, 38, 0.8), rgba(15, 23, 42, 0.9))",
+  "image": "/images/events/8.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "3 Members per Team",
+  "description": "Lights, camera, quiz! Put your cinematic knowledge to the test in this thrilling Cinema Quiz showdown. From iconic scenes to legendary filmmakers, battle it out and prove you’re the ultimate movie buff.",
+  "club": "Pyros (FAC)",
+  "eventCoordinators": [
+    "Kabilesh Kumar - 8838063578",
+    "Kavya - 9344113529"
+  ],
+  "rules": [
+    "Team size: 3 members per team.",
+    "The event consists of 3 main rounds, each focused on a specific category.",
+    "The team with the highest total score after all three rounds will be declared the Cinema Clash Champion.",
+    "In case of a tie, a tie-breaker round with one sudden-death question will be held.",
+    "No mobile phones or external help are allowed during the quiz.",
+    "Event coordinator’s decision will be final."
+  ]
+},
+  {
+  "id": 9,
+  "title": "Solo Singing",
+  "tagline": "Let Your Voice Leave a Lasting Echo",
+  "category": "music",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "K S Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-rose-600/90 via-red-500/80 to-slate-900/90",
+  "gradient": "linear-gradient(135deg, rgba(225, 29, 72, 0.9), rgba(239, 68, 68, 0.8), rgba(15, 23, 42, 0.9))",
+  "image": "/images/events/9.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Solo Participants",
+  "description": "Step forward and let your voice speak where words fall short. This solo singing event invites participants to pour emotion into melody, own the spotlight, and turn silence into applause. A musical face-off awaits.",
+  "club": "FAC PYROS",
+  "eventCoordinators": [
+    "Sakthi Sanjay S - 8825968592",
+    "Vedha Varshini S M - 9345687450"
+  ],
+  "rules": [
+    "This is a solo event; only one participant is allowed per entry.",
+    "Each college may send up to one or two participants, as specified by the organisers.",
+    "Participants must carry a valid college ID card and ticket for verification.",
+    "Each participant will be allotted 3–5 minutes for their performance, including setup and sound check.",
+    "Exceeding the time limit may result in penalty marks or disqualification, at the judges’ discretion.",
+    "Participants may perform songs from any genre or language.",
+    "Karaoke tracks are allowed.",
+    "Participants must submit their audio track to the organisers before the event in the prescribed format [YourName_College].",
+    "Use of obscene, offensive, or inappropriate lyrics is strictly prohibited.",
+    "Judging will be based on song selection, pitch, rhythm, tonal control, vocal quality, clarity, expression, confidence, stage presence, and overall impact.",
+    "The decision of the judges will be final and binding.",
+    "The organizing committee reserves the right to modify rules or scheduling if necessary.",
+    "Participants are responsible for their own tracks and backups.",
+    "Certificates and prizes will be awarded to winners as per event norms."
+  ]
+},
+
+ {
+  "id": 10,
+  "title": "Memory Game",
+  "tagline": "Test Your Observation & Recall",
+  "category": "game",
+  "day": "Day 2",
+  "date": "Day 2",
+  "time": "Offline",
+  "venue": "9th Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-teal-600/90 via-cyan-600/80 to-slate-900/90",
+  "gradient": "linear-gradient(135deg, rgba(13, 148, 136, 0.9), rgba(8, 145, 178, 0.8), rgba(15, 23, 42, 0.9))",
+  "image": "/images/events/10.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual Participants",
+  "description": "Sharpen your observation and concentration skills in this engaging Memory Challenge Game. Participants will be shown a set of random objects for a short duration and must memorize them carefully. After the display, participants will be asked to recall the objects accurately.",
+  "club": "VISHAKA CLUB",
+  "eventCoordinators": [
+    "B L Pavan Sai - 7997618599",
+    "Rahul - 7989501605"
+  ],
+  "rules": [
+    "Individual participation only.",
+    "Objects will be displayed for 20 seconds.",
+    "Recall time will be limited as instructed by the coordinators.",
+    "Random objects will be displayed on the screen.",
+    "Participants must observe and memorize the objects during the display time.",
+    "Use of mobile phones, writing materials, or external assistance is strictly prohibited.",
+    "Only answers given within the allotted time will be considered.",
+    "One point will be awarded for each correctly recalled item.",
+    "No points will be given for incorrect or repeated answers.",
+    "Judging will be based on accuracy, number of correct items recalled, and adherence to the rules.",
+    "Use of unfair means, violation of rules, or indiscipline during the event will lead to disqualification."
+  ]
+},
+
+  {
+  "id": 11,
+  "title": "Blind Drawing",
+  "tagline": "Communicate Without Words",
+  "category": "game",
+  "day": "Day 2",
+  "date": "Day 2",
+  "time": "Offline",
+  "venue": "8th Block Seminar Hall / TIFAC CORE",
+  "eventMode": "Offline",
+  "posterColor": "from-indigo-600/90 via-blue-600/80 to-slate-900/90",
+  "gradient": "linear-gradient(135deg, rgba(79, 70, 229, 0.9), rgba(37, 99, 235, 0.8), rgba(15, 23, 42, 0.9))",
+  "image": "/images/events/11.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Two Players per Team",
+  "description": "Blind Drawing is a two-player team event where participants communicate silently through touch. The 'Artist' draws an object on their partner's back using fingertips, and the 'Decoder' visualizes and guesses it. This game tests synchronization, intuition, and focus.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "K. Shiva - 8639390273",
+    "B. Charan - 8247348788"
+  ],
+  "rules": [
+    "Team Structure: Two-player teams.",
+    "The 'Artist' (Drawer) draws a secret picture or shape on their partner's back using fingertips.",
+    "The 'Decoder' (Guesser) visualizes the object based solely on the touch sensations.",
+    "Roles alternate every round, ensuring both players participate as Artist and Decoder.",
+    "Each team will participate in a total of 10 rounds.",
+    "Zero verbal cues: No talking, whispering, or sounds allowed during drawing. Any verbal hint results in automatic forfeit of that round.",
+    "Drawings must be confined to the back area (shoulder blade to waist).",
+    "The Decoder must look forward at all times. Peeking at the image will lead to disqualification.",
+    "The team that correctly identifies the highest number of objects out of 10 rounds wins.",
+    "In case of a tie, the team that guessed their objects the fastest (lowest total time) will be ranked higher."
+  ]
+},
+  {
+  "id": 12,
+  "title": "Name the Character",
+  "tagline": "Bring Icons to Life Without Words",
+  "category": "game",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "Admin Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-purple-600/90 via-pink-500/80 to-slate-900/90",
+  "gradient": "linear-gradient(135deg, rgba(126, 34, 206, 0.9), rgba(236, 72, 153, 0.8), rgba(15, 23, 42, 0.9))",
+  "image": "/images/events/12.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "2 Members per Team",
+  "description": "Step into the world of cinema and test your movie knowledge in this interactive guessing game. 'Name the Character' challenges participants to bring iconic movie characters to life through expressions, actions, and mannerisms—without speaking. Quick thinking, teamwork, and creativity are key to victory.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "NETTI Satwik - 8885679776",
+    "P.V.S. Tejeswar Reddy - 9063727290"
+  ],
+  "rules": [
+    "The game is played in teams of 2 participants; one performs and the other guesses.",
+    "One team member will be given the name of a movie character.",
+    "The performer must convey the character only through actions, expressions, and mannerisms.",
+    "No verbal clues, dialogues, lip-syncing, or spelling gestures are allowed.",
+    "The second team member must guess the character correctly within the given time.",
+    "Each team will be given 10 characters to guess.",
+    "Every correct guess earns 1 point.",
+    "The team with the maximum correct answers wins.",
+    "Each character must be guessed within the specified time limit set by the coordinators. No extra time will be granted.",
+    "Judging criteria: Number of correct answers.",
+    "Use of spoken words, dialogues, or mobile phones will lead to immediate disqualification."
+  ]
+},
+
+  {
+  "id": 13,
+  "title": "Hand Paint",
+  "tagline": "Create Art With Just Your Hands",
+  "category": "art",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "8th Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-orange-500/90 via-red-500/80 to-purple-900/90",
+  "gradient": "linear-gradient(135deg, rgba(249, 115, 22, 0.9), rgba(239, 68, 68, 0.8), rgba(88, 28, 135, 0.9))",
+  "image": "/images/events/13.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual Participants",
+  "description": "Hand Paint is an offline art event where participants create artwork using only their hands. The challenge focuses on creativity, originality, and adherence to the theme within a limited time, using only water-based, non-toxic paints.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "C. Bhavyasree Royal - 8125300933",
+    "G. Charitha - 9063238153"
+  ],
+  "rules": [
+    "Individual participation only.",
+    "Total time allotted: 45–60 minutes (exact duration announced before the event). No extra time will be provided.",
+    "Participants must create artwork using only their hands (fingers, palm, or thumb).",
+    "Use of brushes, sponges, sticks, or any tools is strictly prohibited.",
+    "Only water-based, non-toxic poster or fabric paints are allowed.",
+    "Participants must bring their own materials (paints, A4 or A10, etc.).",
+    "The painting must be done within the given time.",
+    "The artwork must adhere to the given theme.",
+    "Participants should maintain cleanliness at their workspace.",
+    "No reference materials (mobile phones, printed images, or internet) are allowed during the event.",
+    "Once time is up, participants must stop painting immediately.",
+    "Judging criteria: Neatness and clarity, overall visual impact, creativity & originality.",
+    "Disqualifications: Use of painting tools other than hands, exceeding time limit, copying artwork or using reference materials, misconduct, or including obscene/offensive/inappropriate content."
+  ]
+},
+
+  {
+  "id": 14,
+  "title": "Open Mic – Music Lyrics Challenge",
+  "tagline": "Sing the Lyrics, Hit the Right Notes",
+  "category": "music",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "TIFAC Core - Front Ground",
+  "eventMode": "Offline",
+  "posterColor": "from-pink-600/90 via-red-500/80 to-purple-900/90",
+  "gradient": "linear-gradient(135deg, rgba(236, 72, 153, 0.9), rgba(239, 68, 68, 0.8), rgba(88, 28, 135, 0.9))",
+  "image": "/images/events/14.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Solo Participants",
+  "description": "Open Mic – Music Lyrics Challenge is an offline event where participants listen to the background music (BGM) of a popular song and must sing the lyrics correctly. The winner is determined by the maximum number of songs correctly sung across 10 trials.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "Sarvesh - 7993578025",
+    "R Sravani - 9014896383"
+  ],
+  "rules": [
+    "The event is open to all registered participants.",
+    "Solo participation only.",
+    "Each song must be answered within 10–15 seconds after the background music (BGM) ends. No extra time will be given.",
+    "Lyrics must be clearly audible and mostly accurate. Minor mistakes may be allowed at the judges’ discretion.",
+    "Humming without lyrics is not allowed.",
+    "If a participant fails to sing the correct lyrics, their participation ends for that round.",
+    "The participant may continue until they complete all 10 trials or fail to sing correctly.",
+    "Use of mobile phones, lyric apps, or notes is strictly prohibited. Any form of assistance will result in immediate disqualification.",
+    "Judging criteria: Correctness of lyrics, number of songs correctly sung.",
+    "The participant who sings the maximum number of songs correctly will be declared the winner. In case of a tie, an additional tie-breaker song will be played."
+  ]
+},
+
+  {
+  "id": 15,
+  "title": "Riddles",
+  "tagline": "Test Your Mind, Solve the Mystery",
+  "category": "quiz",
+  "day": "Day 2",
+  "date": "Day 2",
+  "time": "Offline",
+  "venue": "Admin Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-green-600/90 via-lime-500/80 to-slate-900/90",
+  "gradient": "linear-gradient(135deg, rgba(5, 150, 105, 0.9), rgba(163, 230, 53, 0.8), rgba(15, 23, 42, 0.9))",
+  "image": "/images/events/15.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual or Team (1–3 members)",
+  "description": "The Riddles Game is an engaging and intellectually stimulating competition designed to test participants’ logical reasoning, creativity, and problem-solving abilities. Solve riddles under time constraints to score points and progress through multiple rounds.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "Setu Sai Ram - 7674043125",
+    "Mohan Vamsi - 6281605767"
+  ],
+  "rules": [
+    "Open to all registered participants of the event. Participants must adhere to the event code of conduct.",
+    "The game can be conducted as individual or team-based. Teams may consist of 1 to 3 members. No changes in team members are allowed after registration.",
+    "The competition will consist of multiple rounds: Preliminary, Intermediate, and Final, with increasing difficulty.",
+    "Participants must answer riddles within the allotted time.",
+    "Use of mobile phones, internet access, smart devices, or external help is strictly prohibited.",
+    "Answers must be precise and clearly written or stated.",
+    "Any form of cheating or misconduct will result in immediate disqualification.",
+    "Participants must maintain discipline and silence during the competition.",
+    "The decision of the judges and event coordinators will be final and binding.",
+    "Scoring: Correct Answer +10 points, Wrong Answer 0 points (or –5 points if negative marking is applicable). Bonus or tie-breaker questions may carry additional points.",
+    "Tie-Breaker: In case of a tie, a special tie-breaker riddle or rapid-fire round will be conducted. The participant/team answering correctly in the least time will be declared the winner.",
+    "Participants must report at the venue at least 15 minutes before the start of the event.",
+    "Organizers reserve the right to modify rules if necessary, with prior notice.",
+    "By participating, participants agree to abide by all the rules and regulations mentioned above."
+  ]
+},
+
+  {
+  "id": 16,
+  "title": "Origami",
+  "tagline": "Unfold Creativity, One Fold at a Time",
+  "category": "art",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "KS Krishna Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-cyan-600/90 via-blue-500/80 to-slate-900/90",
+  "gradient": "linear-gradient(135deg, rgba(6, 182, 212, 0.9), rgba(59, 130, 246, 0.8), rgba(15, 23, 42, 0.9))",
+  "image": "/images/events/16.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual Participants",
+  "description": "Origami is a paper folding art event that challenges participants to transform simple sheets of paper into imaginative and elegant creations, showcasing skill, patience, creativity, and attention to detail.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "V. Rohitha - 9391522316",
+    "U. BhanuPrasad - 9652442961"
+  ],
+  "rules": [
+    "This is an individual event. Participants must participate individually only.",
+    "Open to all registered participants.",
+    "Time Duration: Round 1: 20 minutes, Round 2: 15 minutes, Round 3: 10 minutes. Participants must complete their origami models within the given time limit.",
+    "Participants must bring their own craft materials.",
+    "Participants are free to create any origami model (traditional or innovative).",
+    "Only paper-based folding art is allowed. Excessive use of non-paper materials may lead to disqualification.",
+    "Pre-made or pre-folded models are strictly prohibited.",
+    "Participants must work independently; collaboration is not allowed.",
+    "Finished models should be neatly displayed as instructed by the event coordinators.",
+    "Participants may be asked to briefly explain their creation and concept.",
+    "Judging Criteria: Creativity and originality, precision and neatness of folds, complexity and difficulty level, overall visual appeal, time management and completion.",
+    "Disqualification: Use of pre-made models, exceeding the time limit, violation of material or event rules, any form of misconduct or unfair practice."
+  ]
+},
+
+  {
+  "id": 17,
+  "title": "Chess",
+  "tagline": "Strategize, Checkmate, Conquer",
+  "category": "game",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "Admin Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-gray-600/90 via-slate-500/80 to-black/90",
+  "gradient": "linear-gradient(135deg, rgba(75, 85, 99, 0.9), rgba(100, 116, 139, 0.8), rgba(0, 0, 0, 0.9))",
+  "image": "/images/events/17.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual Participants",
+  "description": "An exciting Chess Tournament filled with sharp strategies and thrilling battles of the mind. Compete one-on-one, make calculated moves, and demonstrate mastery to emerge victorious.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "Y.M.V. Vardhan - 8622886655",
+    "Geethika - 8754004025"
+  ],
+  "rules": [
+    "The tournament is conducted as an individual chess competition. Each participant will compete one-on-one against an opponent.",
+    "Matches will be played under standard chess rules. Pairings for each round will be decided by the tournament coordinators. Tournament format (Knockout / Swiss League / Round Robin) will be announced before the event begins.",
+    "Each player will be given a fixed time limit per match. Time control may include rapid or blitz format, as decided by the coordinators. Exceeding the allotted time will result in an automatic loss.",
+    "Players must make moves only when it is their turn. Touch-move rules will be applicable. Illegal moves may lead to penalties or forfeiture, based on the referee’s decision.",
+    "Use of external assistance, chess engines, or any unfair aids is strictly prohibited.",
+    "A match is won by checkmate, resignation, or time-out. In case of a draw, tie-breaking rules will be applied as decided by the arbiter.",
+    "Players are expected to maintain sportsmanship and discipline throughout the event. Any form of misconduct or unfair play will lead to immediate disqualification.",
+    "The decision of the match arbiter and event coordinators will be final and binding."
+  ]
+},
+
+  {
+  "id": 18,
+  "title": "Traditional Walk",
+  "tagline": "Grace, Heritage, and Elegance on Stage",
+  "category": "cultural",
+  "day": "Day 2",
+  "date": "Day 2",
+  "time": "Offline",
+  "venue": "Krishnan Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-yellow-500/90 via-orange-500/80 to-red-700/90",
+  "gradient": "linear-gradient(135deg, rgba(234, 179, 8, 0.9), rgba(251, 191, 36, 0.8), rgba(153, 27, 27, 0.9))",
+  "image": "/images/events/18.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual Participants",
+  "description": "Traditional Walk is a cultural stage event where participants showcase traditional attire with grace, elegance, and cultural values. The focus is on heritage, posture, expressions, and confidence.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "B SrujanaReddy - 9618400843",
+    "V Thanu Sri Sai - 9963284090"
+  ],
+  "rules": [
+    "Participants must wear traditional attire (saree, dhoti, lehenga, kurta, etc.). Modern or western outfits are not allowed.",
+    "Outfit should be decent and respectful to culture. Vulgar gestures or revealing costumes are prohibited.",
+    "Traditional accessories (jewelry, bangles, flowers, etc.) are allowed. Makeup should be simple and traditional, not flashy.",
+    "Maintain graceful posture and elegant movements. No ramp-walk style poses unless specified.",
+    "Judged based on attire, confidence, elegance, cultural representation, and overall presentation.",
+    "Violation of rules may lead to immediate disqualification."
+  ]
+},
+
+  {
+  "id": 19,
+  "title": "Best of Sparks Collage",
+  "tagline": "Capture the Soul of Sparkz in One Collage",
+  "category": "photography",
+  "day": "Day 2",
+  "date": "Day 2",
+  "time": "Online",
+  "venue": "KS Krishnan Auditorium / Online (Discord/Event Portal)",
+  "eventMode": "Online",
+  "posterColor": "from-indigo-500/90 via-purple-500/80 to-pink-600/90",
+  "gradient": "linear-gradient(135deg, rgba(99, 102, 241, 0.9), rgba(139, 92, 246, 0.8), rgba(236, 72, 153, 0.9))",
+  "image": "/images/events/19.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual or Team (Max 1 member)",
+  "description": "The Sparkz Lens: Event Collage Challenge invites participants to capture the essence of Sparkz through a digital collage. Showcase behind-the-scenes moments, high-energy highlights, and candid emotions in a single, breathtaking image.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "Geetheshwar G - 7702436278",
+    "Shaik Thaha - 7893340788"
+  ],
+  "rules": [
+    "Individual entry or a team of maximum 1 participant.",
+    "All collages must be submitted digitally by the specified deadline on Day 1 or Day 2. Late submissions will not be considered.",
+    "The collage must consist of original photos captured during the Sparkz events. Participants must use their own devices (cameras/smartphones) and editing software.",
+    "Final output must be a single high-resolution image (JPEG/PNG).",
+    "Focus on 'The Unseen Sparkz'—candid shots, emotions, and intricate details. Minimal digital manipulation (brightness, contrast, filters) is allowed, but the core of the images must remain authentic.",
+    "No stock images or AI-generated content allowed.",
+    "Judging criteria: Storytelling, composition (visual balance, color harmony, layout), creativity, and overall impact.",
+    "Disqualifications: Using photos taken by others or sourced from the internet, submission of offensive or inappropriate content."
+  ]
+},
+
+  {
+  "id": 20,
+  "title": "Join the Riddles: Guess the Song Challenge",
+  "tagline": "Decode the Visual Clues, Name the Song",
+  "category": "quiz",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "K S Krishnan Auditorium Front / 8th Block Seminar Hall / TIFAC Core",
+  "eventMode": "Offline",
+  "posterColor": "from-purple-600/90 via-indigo-500/80 to-blue-700/90",
+  "gradient": "linear-gradient(135deg, rgba(139, 92, 246, 0.9), rgba(99, 102, 241, 0.8), rgba(29, 78, 216, 0.9))",
+  "image": "/images/events/20.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual Participants",
+  "description": "Join the Riddles is an engaging challenge where participants analyze visual clues to identify song titles. Test your observation skills, musical knowledge, and quick thinking as you decode images to uncover hidden songs.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "Surya - 7995318852",
+    "A. Sri Ram Chandu - 9182913465"
+  ],
+  "rules": [
+    "Individual participation only (maximum of one participant per entry).",
+    "The event will be conducted during the scheduled time slot as per the official event itinerary. Participants must be present at the venue before the event begins. Late arrivals may not be permitted to participate.",
+    "Participants will be shown a series of complex or riddle-based images. Each image represents a song title or lyrics through visual clues. Participants must identify and respond with the correct song name within the given time. All images will be displayed digitally using the event’s presentation system.",
+    "A fixed time limit will be allotted for each riddle/image. Only one answer per image is allowed. Minor spelling errors may be ignored if the answer is clearly identifiable. Discussion with other participants or the audience is strictly prohibited.",
+    "Judging Criteria: Accuracy (correct identification of the song), Speed (faster correct responses may be given preference), Consistency (number of correct answers across all rounds), Overall Performance (performance throughout the event).",
+    "Disqualification Criteria: Use of mobile phones, smart devices, or external assistance; any form of malpractice or rule violation; misconduct or indiscipline during the event."
+  ]
+},
+
+  {
+  "id": 21,
+  "title": "Free Fire",
+  "tagline": "Drop Smart, Play Fair, Survive the Battle",
+  "category": "gaming",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Online",
+  "venue": "Online",
+  "eventMode": "Online",
+  "posterColor": "from-red-600/90 via-orange-500/80 to-yellow-500/90",
+  "gradient": "linear-gradient(135deg, rgba(220, 38, 38, 0.9), rgba(249, 115, 22, 0.8), rgba(253, 224, 71, 0.9))",
+  "image": "/images/events/21.jpg",
+  "featured": false,
+  "seats": "Unlimited",
+  "participants": "Squads (max 4 players per squad)",
+  "description": "Free Fire Battle Royale (Squad Mode) is a high-intensity multiplayer survival competition testing shooting skills, strategy, teamwork, and decision-making. The last squad standing wins.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "K. Aryan - 7995155683",
+    "Tagoor - 8978924630"
+  ],
+  "rules": [
+    "Open to all registered participants of the event. Players must have a valid Free Fire account and follow the event code of conduct at all times.",
+    "Matches will be conducted as Custom Rooms (unless stated otherwise) following standard Battle Royale rules. The squad that stands last is the winner. Matches will be recorded for verification and fair-play review.",
+    "No EMOTE usage is allowed during the match. Use of cheats, hacks, scripts, or third-party tools is strictly prohibited. Panel users will be disqualified immediately. No external help, screen sharing, or account sharing is allowed.",
+    "Players must follow match timings strictly. Stable internet connection is the responsibility of the player. Any misbehavior or rule violation will lead to disqualification. Matches will be monitored by organizers and referees.",
+    "Judging criteria: No hacking, no teaming with other squads, no exploiting game bugs. AFK (Away From Keyboard) players negatively affect squad performance. Unsportsmanlike behavior will not be tolerated.",
+    "Winning criteria: The squad that survives till the end (Last Squad Standing) wins. In case of technical issues, organizers’ decisions are final.",
+    "Disqualification criteria: Use of hacks, panels, or unfair means; more than one PC player in a squad; use of emotes during the match; refusal to cooperate with match officials.",
+    "Players must join the room on time. Organizers reserve the right to modify rules if required, with prior notice.",
+    "By participating, all players agree to abide by the rules and regulations. Organizers’ decisions are final and binding."
+  ]
+},
+
+  {
+  "id": 22,
+  "title": "Short Drama / Skit",
+  "tagline": "Bring Stories to Life on Stage",
+  "category": "theatre",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "K S Krishna Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-red-500/90 via-orange-500/80 to-yellow-400/90",
+  "gradient": "linear-gradient(135deg, rgba(239, 68, 68, 0.9), rgba(251, 191, 36, 0.8), rgba(253, 224, 71, 0.9))",
+  "image": "/images/events/22.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Teams of 4–6 members",
+  "description": "Short Drama / Skit is a theatrical event where teams perform an engaging drama or skit. Participants showcase creativity, storytelling, and acting skills within a limited time.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "Ch. Vinod – 9542093781",
+    "P. Sandeep – 9701647574"
+  ],
+  "rules": [
+    "Team size: 4–6 members. Individual participation is not permitted.",
+    "Performance duration per team: 5–10 minutes. Exact duration will be announced before the event begins. No extra time is provided.",
+    "Teams must come prepared with an interesting short drama. Participants must bring their own materials and props required for the performance.",
+    "The performance must be completed within the given time. Once time is up, participants must stop immediately.",
+    "No reference materials, mobile phones, or internet usage are allowed during the event.",
+    "Participants should maintain cleanliness at their workspace and on stage.",
+    "Judging criteria: Overall visual impact, creativity and originality, clarity of performance. Winners will be decided by the judges and awarded prizes.",
+    "Disqualifications: Exceeding the allotted time limit; copying performances or using reference materials; engaging in misconduct or violating event rules; performance containing obscene, offensive, or inappropriate content."
+  ]
+},
+
+  {
+  "id": 23,
+  "title": "BookTok IRL",
+  "tagline": "Bring the Magic of BookTok to Life",
+  "category": "literary",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "9th Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-green-600/90 via-teal-500/80 to-blue-500/90",
+  "gradient": "linear-gradient(135deg, rgba(22, 163, 74, 0.9), rgba(20, 184, 166, 0.8), rgba(59, 130, 246, 0.9))",
+  "image": "/images/events/23.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual or Teams (max 4 members)",
+  "description": "BookTok IRL is a cozy celebration of books, storytelling, and creativity. Participants engage in reading, annotations, content creation, reels, and discussions while embracing the BookTok aesthetic.",
+  "club": "Fine Arts Club",
+  "eventCoordinators": [
+    "Ranjani S - 8695217005",
+    "Bavatharani - 9488133606"
+  ],
+  "rules": [
+    "Participant format: Individual or team participation allowed. Teams may have up to 4 participants.",
+    "Event duration: 2–3 hours. Individual activity slots will be announced on the spot.",
+    "Participants must bring at least one book of their choice. Personal items like bookmarks, journals, highlighters, tabs, and aesthetic props are allowed. No damage should be caused to the venue or shared materials.",
+    "Phones are permitted only during designated content-creation slots. Silent reading sessions must be respected. Reels, photos, and BookTok-style content are encouraged.",
+    "Activities included: Silent reading session, annotate-with-me / journal time, BookTok reel & photo creation, book discussions & recommendations, optional blind date with a book / book exchange.",
+    "Judging criteria: Creativity & aesthetic presentation, engagement with the BookTok theme, originality of content created, bookish expression & participation.",
+    "Disqualification criteria: Disrupting the reading environment, plagiarism or inappropriate content, violation of event decorum or rules."
+  ]
+},
+
+  {
+  "id": 24,
+  "title": "TAMIL SIGNATURE",
+  "tagline": "Showcase Creativity Through Tamil Handwriting",
+  "category": "art & culture",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "9th Block Classroom",
+  "eventMode": "Offline",
+  "posterColor": "from-orange-600/90 via-red-500/80 to-yellow-500/90",
+  "gradient": "linear-gradient(135deg, rgba(251, 146, 60, 0.9), rgba(239, 68, 68, 0.8), rgba(253, 224, 71, 0.9))",
+  "image": "/images/events/24.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual participation only",
+  "description": "TAMIL SIGNATURE allows participants to express creativity and personal identity through artistic Tamil signature design. Participants create unique and visually appealing signatures using basic stationery.",
+  "club": "Tamil Mandram",
+  "eventCoordinators": [
+    "S.K Siva Sankari - 8925166022",
+    "R. Varshini - 8248780922"
+  ],
+  "rules": [
+    "Individual participation only.",
+    "Time limit: 30 minutes.",
+    "Participants must create a unique Tamil signature.",
+    "A Tamil passage will be provided by the organizers, which participants must write neatly.",
+    "Only basic stationery is allowed. Participants must bring their own stationery items. Only paper will be provided on the spot.",
+    "Judging criteria: Uniqueness of the Tamil signature, beauty and clarity of Tamil handwriting of the given passage, neatness, and overall presentation."
+  ]
+},
+
+  {
+  "id": 25,
+  "title": "Video Jockey",
+  "tagline": "Spontaneity and Stage Presence in Tamil VJ Style",
+  "category": "literary & performance",
+  "day": "Day 2",
+  "date": "Day 2",
+  "time": "Offline",
+  "venue": "9th Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-purple-600/90 via-pink-500/80 to-indigo-500/90",
+  "gradient": "linear-gradient(135deg, rgba(139, 92, 246, 0.9), rgba(236, 72, 153, 0.8), rgba(79, 70, 229, 0.9))",
+  "image": "/images/events/25.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual participation only",
+  "description": "Video Jockey (Tamil) tests participants' spontaneity, communication skills, and stage presence. Participants will speak engagingly on a topic given on the spot, simulating a VJ role.",
+  "club": "Tamil Mandram",
+  "eventCoordinators": [
+    "J Nilesh - 7395829890",
+    "S Swetha - 6385347334"
+  ],
+  "rules": [
+    "Individual participation only.",
+    "Time limit: 2–3 minutes.",
+    "Topic/situation will be given on the spot.",
+    "Participants should speak confidently and engage the audience.",
+    "Use of offensive language is strictly prohibited.",
+    "Exceeding the time limit will lead to disqualification.",
+    "Judging criteria: communication skills, spontaneity, confidence, and stage presence."
+  ]
+},
+
+  {
+  "id": 26,
+  "title": "Quiz",
+  "tagline": "Test Your Knowledge of Thirukkural",
+  "category": "literary",
+  "day": "Day 2",
+  "date": "Day 2",
+  "time": "Offline",
+  "venue": "9th Block Classroom",
+  "eventMode": "Offline",
+  "posterColor": "from-red-600/90 via-orange-500/80 to-yellow-500/90",
+  "gradient": "linear-gradient(135deg, rgba(220, 38, 38, 0.9), rgba(251, 191, 36, 0.8), rgba(253, 224, 71, 0.9))",
+  "image": "/images/events/26.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual participation only",
+  "description": "A Tamil Mandram quiz competition focusing exclusively on Thirukkural. Participants will be tested on meanings, values, and relevance of Thirukkural in Tamil language, culture, and ethics.",
+  "club": "Tamil Mandram",
+  "eventCoordinators": [
+    "R.B. Soobinthra - 8667898259",
+    "M Nishani - 9629565298"
+  ],
+  "rules": [
+    "Participation: Individual only.",
+    "Quiz content: Questions based entirely on Thirukkural.",
+    "Language: Tamil only.",
+    "Rounds: Single main round (Tie-breaker round if required).",
+    "Use of mobile phones is strictly prohibited and will lead to disqualification.",
+    "Points will be awarded for correct answers.",
+    "Judges' decision is final."
+  ]
+},
+
+  {
+  "id": 27,
+  "title": "Word Acting",
+  "tagline": "Express Without Words – Gesture, Act, Impress!",
+  "category": "literary & performance",
+  "day": "Day 2",
+  "date": "Day 2",
+  "time": "Offline",
+  "venue": "9th Block Classroom",
+  "eventMode": "Offline",
+  "posterColor": "from-green-600/90 via-lime-500/80 to-emerald-500/90",
+  "gradient": "linear-gradient(135deg, rgba(5, 150, 105, 0.9), rgba(132, 204, 22, 0.8), rgba(16, 185, 129, 0.9))",
+  "image": "/images/events/27.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Team of 2–4 members",
+  "description": "Word Acting challenges teams to act out words or phrases using only gestures and expressions. Teammates must guess correctly within the time limit. This event tests non-verbal communication, quick thinking, and teamwork.",
+  "club": "Tamil Mandram",
+  "eventCoordinators": [
+    "J P Shenbaga Devi - 9843569783",
+    "M Mohammad Akram - 9342520800"
+  ],
+  "rules": [
+    "Team participation only (maximum 2–4 members per team).",
+    "Time limit: 1–2 minutes per round.",
+    "No speaking, lip movement, or sound effects allowed.",
+    "Only gestures and expressions should be used.",
+    "Exceeding the time limit will lead to disqualification.",
+    "Judging criteria: acting skills, teamwork, clarity of expression, and time management."
+  ]
+},
+
+  {
+  "id": 28,
+  "title": "Poetry Writing",
+  "tagline": "Express Your Soul in Tamil Verses",
+  "category": "literary",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "9th Block Classroom",
+  "eventMode": "Offline",
+  "posterColor": "from-purple-600/90 via-pink-500/80 to-rose-500/90",
+  "gradient": "linear-gradient(135deg, rgba(139, 92, 246, 0.9), rgba(236, 72, 153, 0.8), rgba(244, 63, 94, 0.9))",
+  "image": "/images/events/28.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual participation only",
+  "description": "Poetry Writing encourages participants to express creativity and enhance literary skills through original Tamil poetry. Participants will compose a poem on a given theme within the allotted time.",
+  "club": "Tamil Mandram",
+  "eventCoordinators": [
+    "J Abinesh - 9943894491",
+    "R Karthick - 7604926171"
+  ],
+  "rules": [
+    "Individual participation only.",
+    "Time limit: 30–45 minutes.",
+    "Topic/theme will be given on the spot.",
+    "Poems must be written in Tamil.",
+    "Usage of mobile phones or AI tools leads to disqualification.",
+    "Judging criteria: originality, creativity, language, and relevance to the theme."
+  ]
+},
+
+  {
+  "id": 29,
+  "title": "Debate",
+  "tagline": "Sharpen Your Tamil Eloquence",
+  "category": "literary",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "9th Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-red-600/90 via-orange-500/80 to-yellow-500/90",
+  "gradient": "linear-gradient(135deg, rgba(220, 38, 38, 0.9), rgba(251, 191, 36, 0.8), rgba(234, 88, 12, 0.9))",
+  "image": "/images/events/29.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "2 members per team / Individual",
+  "description": "Debate (Tamil) develops critical thinking, public speaking, and persuasive communication. Participants present arguments on a given topic, followed by rebuttals, evaluated for clarity, confidence, and content strength.",
+  "club": "Tamil Mandram",
+  "eventCoordinators": [
+    "R Anbu Selvan - 9674404038",
+    "G Ishwarya Lakshmi - 8124076255"
+  ],
+  "rules": [
+    "Team/Individual format as decided by organizers (usually 2 per team).",
+    "Topic will be announced on the spot.",
+    "Time limit: 3–5 minutes per speaker.",
+    "Only Tamil language is allowed.",
+    "Offensive or disrespectful content leads to disqualification.",
+    "Exceeding the time limit leads to disqualification.",
+    "Judging criteria: clarity of argument, content strength, confidence, and rebuttal skills."
+  ]
+},
+
+  {
+  "id": 30,
+  "title": "Open Dance Floor",
+  "tagline": "Show Your Moves, Own the Stage",
+  "category": "dance",
+  "day": "Day 1",
+  "date": "Day 1",
+  "time": "Offline",
+  "venue": "K S Krishna Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-pink-600/90 via-purple-500/80 to-indigo-500/90",
+  "gradient": "linear-gradient(135deg, rgba(236, 72, 153, 0.9), rgba(139, 92, 246, 0.8), rgba(79, 70, 229, 0.9))",
+  "image": "/images/events/30.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Solo / Duo / Group",
+  "description": "Open Dance Floor lets participants showcase their dance skills in Solo, Duo, or Group performances. On-the-spot themes, songs, and hook steps challenge creativity, coordination, and energy. The Final Battle Round tests spontaneity with surprise songs.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "Sai Siva - 9713356789",
+    "Bhargav - 9515318985"
+  ],
+  "rules": [
+    "Duo and Group performances are allowed.",
+    "Themes and songs will be given on the spot for each performance.",
+    "Songs can be in Telugu, Tamil, English, or Hindi.",
+    "Maximum time per performance is 3 minutes.",
+    "Dance props are allowed only after approval from the event coordinator.",
+    "Group performances must follow demo hook steps if provided.",
+    "Final Round will be a Battle Round with songs given on the spot.",
+    "Each group must nominate one representative for the Group Battle Round.",
+    "Points will be awarded based on performance quality, creativity, coordination, and spontaneity.",
+    "The judges' and coordinators' decisions are final and binding."
+  ]
+},
+
+  {
+  "id": 31,
+  "title": "Waste to Creative - The Innovation Challenge (Craft Challenge)",
+  "tagline": "Transform Waste into Art and Innovation",
+  "category": "craft",
+  "day": "Day 2",
+  "date": "Feb 28, 2026",
+  "time": "3 Hours",
+  "venue": "7th Block Classroom",
+  "eventMode": "Offline",
+  "posterColor": "from-green-600/90 via-yellow-500/80 to-orange-500/90",
+  "gradient": "linear-gradient(135deg, rgba(22, 163, 74, 0.9), rgba(234, 179, 8, 0.8), rgba(249, 115, 22, 0.9))",
+  "image": "/images/events/31.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Teams of 2–3 members",
+  "description": "Participants will conceptualize and create useful or decorative craft items using only recyclable or waste materials. Emphasis is on creativity, environmental responsibility, and originality. A 2–3 minute presentation explaining the concept, materials, and message is required.",
+  "club": "Yuva Tourism",
+  "eventCoordinators": [
+    "Yashika - 8610517172",
+    "Karthika - 7418857927"
+  ],
+  "rules": [
+    "Team of 2 or 3 members only.",
+    "Theme will be announced on the spot.",
+    "Only waste, discarded, or recyclable materials are allowed (e.g., paper waste, plastic bottles, cardboard, fabric scraps, old CDs).",
+    "Participants may bring only raw waste materials and essential joining materials (e.g., glue, tape).",
+    "Each team must give a 2–3 minute presentation explaining the concept, title, materials used, and environmental/social message conveyed.",
+    "Pre-assembled or pre-designed craft items are strictly prohibited.",
+    "Materials such as newspaper, ice sticks, and coconut shells are not allowed.",
+    "Mobile phones and electronic devices are not allowed during the event.",
+    "Duration: 3 hours."
+  ]
+},
+
+  {
+  "id": 32,
+  "title": "Human Knot Challenge",
+  "tagline": "Untangle the Chaos, Strengthen the Team",
+  "category": "team-building",
+  "day": "Day 1",
+  "date": "Feb 28, 2026",
+  "time": "Flexible / On Spot",
+  "venue": "Basketball Ground",
+  "eventMode": "Offline",
+  "posterColor": "from-red-600/90 via-pink-500/80 to-yellow-500/90",
+  "gradient": "linear-gradient(135deg, rgba(220, 38, 38, 0.9), rgba(236, 72, 153, 0.8), rgba(234, 179, 8, 0.9))",
+  "image": "/images/events/32.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Teams of exactly 5 members",
+  "description": "Test teamwork, coordination, and problem-solving in this interactive challenge. Teams must untangle themselves from a human knot without breaking the hand-holding chain. Speed, communication, and strategy determine the winner.",
+  "club": "Youth Red Cross",
+  "eventCoordinators": [
+    "M. Barathsuriya - 8248296749",
+    "S. Akash - 7358924921"
+  ],
+  "rules": [
+    "Each team must consist of exactly 5 participants.",
+    "Participants must stand in a circle facing inward and hold hands with two different non-adjacent members.",
+    "Hands must not be released at any point during the challenge.",
+    "Participants may twist, turn, step over, or move under arms.",
+    "Communication among team members is allowed.",
+    "Objective: Teams must untangle themselves into one complete open circle while still holding hands.",
+    "Winning Criteria: The team that completes the challenge in the shortest time will be declared the winner.",
+    "Disqualifications: Releasing hands during the game or unsafe behavior / arguing with judges."
+  ]
+},
+
+  {
+  "id": 33,
+  "title": "RED RUSH – Word Scramble",
+  "tagline": "Race, Identify, and Prove Your YRC Spirit",
+  "category": "team-building",
+  "day": "Day 2",
+  "date": "Feb 28, 2026",
+  "time": "Flexible / On Spot",
+  "venue": "Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-red-500/90 via-orange-500/80 to-yellow-400/90",
+  "gradient": "linear-gradient(135deg, rgba(239, 68, 68, 0.9), rgba(251, 191, 36, 0.8), rgba(252, 211, 77, 0.9))",
+  "image": "/images/events/33.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Teams of 4 participants",
+  "description": "Experience speed, strategy, and service in this high-energy YRC game. Teams race across the field, identify correct Youth Red Cross service words among decoys, and demonstrate awareness, teamwork, and humanitarian spirit.",
+  "club": "YRC",
+  "eventCoordinators": [
+    "Samyuktha C – 9342054248",
+    "Sanjai V – 9042706071"
+  ],
+  "rules": [
+    "Each team must consist of 4 participants. All members must actively participate throughout the event.",
+    "Teams complete the task in the shortest time to be ranked higher.",
+    "A designated play area will have multiple word cards scattered randomly. Only some cards contain valid YRC service-related words; others are decoys.",
+    "Teams pick only one card at a time and bring it to the base for verification. Correct cards are retained; incorrect ones are returned to the play area.",
+    "Teams must collect the required number of correct cards to complete the game.",
+    "Use of mobile phones or external assistance is strictly prohibited.",
+    "Winning & Judging: Accuracy in identifying correct YRC service words, time taken, team coordination, participation, discipline, fair play, and team spirit.",
+    "Disqualification: Picking more than one card at a time, failure to follow coordinator instructions, obstructing/interfering with other teams, or use of unfair means.",
+    "The decision of the judges and coordinators is final and binding."
+  ]
+},
+
+  {
+  "id": 34,
+  "title": "Humanitarian Hustle",
+  "tagline": "Race, Solve, and Serve with Speed",
+  "category": "team-building",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "Flexible / On Spot",
+  "venue": "Any Classroom",
+  "eventMode": "Offline",
+  "posterColor": "from-green-600/90 via-blue-500/80 to-cyan-400/90",
+  "gradient": "linear-gradient(135deg, rgba(22, 163, 74, 0.9), rgba(59, 130, 246, 0.8), rgba(6, 182, 212, 0.9))",
+  "image": "/images/events/34.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Teams of 3–5 participants",
+  "description": "A fast-paced, fun Humanitarian challenge where teams solve riddles and find everyday objects using clever clues across two exciting rounds. Focus on teamwork, strategy, and speed.",
+  "club": "Youth Red Cross",
+  "eventCoordinators": [
+    "Meganaa G – 6369953115",
+    "Srinivasan S R – 7418754354"
+  ],
+  "rules": [
+    "Round 1: Teams of 3–5 members must find 10 hidden items in 30 minutes. Completion time is noted. Top 5 teams advance to Round 2 (selection may vary based on participation).",
+    "Round 2: Teams solve clues to find objects. Objects must neither be destroyed nor created incorrectly. Time limit is 15 minutes.",
+    "Teams must justify their choices for each clue. Correct justification and early completion determine winners.",
+    "Use of external help, mobile phones, or unfair means is prohibited.",
+    "Winning & Judging: Teams are evaluated on speed, accuracy, and quality of justification.",
+    "Disqualification: Misconduct, breaking rules, or attempting unfair advantage.",
+    "Decisions of the judges and event coordinators are final and binding."
+  ]
+},
+
+  {
+  "id": 35,
+  "title": "One Truth One Lie",
+  "tagline": "Spot the Truth, Uncover the Fun",
+  "category": "team-building",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "Flexible / On Spot",
+  "venue": "8th Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-red-600/90 via-yellow-500/80 to-orange-400/90",
+  "gradient": "linear-gradient(135deg, rgba(220, 38, 38, 0.9), rgba(234, 179, 8, 0.8), rgba(251, 191, 36, 0.9))",
+  "image": "/images/events/35.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Teams of 2–5 participants",
+  "description": "An interactive activity where participants share one truth and one lie related to facts about Youth Red Cross. Promotes awareness, critical thinking, creativity, and effective communication.",
+  "club": "YRC",
+  "eventCoordinators": [
+    "Karen Morisha – 7418853918",
+    "Pooja – 8438058210"
+  ],
+  "rules": [
+    "Each participant has 3–5 minutes to present two statements: one truth and one lie.",
+    "Statements must be original and appropriate.",
+    "Interaction with judges and audience is allowed.",
+    "Judging Criteria: Confidence, clarity, creativity, body language, and convincing presentation.",
+    "Disqualification: Exceeding time limits or violating content guidelines.",
+    "The decision of the judges and event coordinators is final and binding."
+  ]
+},
+
+  {
+  "id": 36,
+  "title": "Green Energy Logo Challenge",
+  "tagline": "Design the Future of Sustainability",
+  "category": "creative",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "50 minutes",
+  "venue": "9410",
+  "eventMode": "Offline",
+  "posterColor": "from-green-600/90 via-lime-500/80 to-emerald-400/90",
+  "gradient": "linear-gradient(135deg, rgba(22, 163, 74, 0.9), rgba(132, 204, 22, 0.8), rgba(16, 185, 129, 0.9))",
+  "image": "/images/events/36.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual or Teams (Max 4)",
+  "description": "A creative challenge where participants design an original logo based on green energy. Promotes innovation, sustainability awareness, and teamwork.",
+  "club": "Green Army",
+  "eventCoordinators": [
+    "Santhosh Kumar – 70108 99732",
+    "Ragul Kudiyarasu – 6382712030"
+  ],
+  "rules": [
+    "Each team has 10–15 minutes to create and present the logo, including concept explanation.",
+    "Participants must bring their own laptops, tablets, software, or stationery for logo design.",
+    "Logo must be original and designed on the spot. Plagiarism or use of pre-designed templates leads to disqualification.",
+    "Teams may briefly explain the logo concept, color choices, and symbolism within the time limit.",
+    "Judging Criteria: Creativity, originality, theme relevance, visual appeal, concept explanation, team coordination, and time management.",
+    "Disqualification: Use of pre-made logos or templates, exceeding time limit.",
+    "Decision of judges and event coordinators is final and binding."
+  ]
+},
+
+  {
+  "id": 37,
+  "title": "Nature Warriors",
+  "tagline": "Unleash Your Environmental Creativity",
+  "category": "creative",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "10–20 minutes",
+  "venue": "9410",
+  "eventMode": "Offline",
+  "posterColor": "from-green-700/90 via-emerald-500/80 to-lime-400/90",
+  "gradient": "linear-gradient(135deg, rgba(21, 128, 61, 0.9), rgba(34, 197, 94, 0.8), rgba(132, 204, 22, 0.9))",
+  "image": "/images/events/37.jpg",
+  "featured": false,
+  "seats": "Limited",
+  "participants": "Individual only",
+  "description": "An on-the-spot drawing challenge where participants express ideas of nature, sustainability, and environmental heroes through original art.",
+  "club": "Green Army",
+  "eventCoordinators": [
+    "Dhanraj – 63795 68562",
+    "Arjun – 8838517553"
+  ],
+  "rules": [
+    "Individual participation only.",
+    "Total duration: 10–20 minutes, including theme reveal and submission.",
+    "Theme will be given on the spot.",
+    "Participants must bring their own drawing materials.",
+    "Artwork must be original and created on the spot; pre-made sketches are not allowed.",
+    "Judging Criteria: Creativity, originality, relevance to theme, visual appeal, clarity, concept expression, and time management.",
+    "Disqualification: Use of pre-made sketches or exceeding time limit.",
+    "Decision of judges and event coordinators is final and binding."
+  ]
+},
+
+  {
+  "id": 38,
+  "title": "Nature Led – Short Film Contest",
+  "tagline": "Express Creativity, Promote Environmental Awareness",
+  "category": "creative",
+  "day": "Day 2",
+  "date": "Feb 28, 2026",
+  "time": "Flexible (Online Submission)",
+  "venue": "Online",
+  "eventMode": "Online",
+  "posterColor": "from-green-600/90 via-emerald-500/80 to-lime-400/90",
+  "gradient": "linear-gradient(135deg, rgba(22, 163, 74, 0.9), rgba(34, 197, 94, 0.8), rgba(132, 204, 22, 0.9))",
+  "image": "/images/events/38.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "1–3 per team",
+  "description": "An online short film contest encouraging participants to creatively spread awareness on environment, sustainability, climate action, biodiversity, and eco-friendly living.",
+  "club": "Nature Club - KARE",
+  "eventCoordinators": [
+    "V. Vasuki – 6374479072",
+    "Dhanish S – 9150874079"
+  ],
+  "rules": [
+    "Maximum 3 participants per team; film cast can be limitless.",
+    "Each participant/team can submit only one entry.",
+    "Theme must be strictly related to Nature, Environment, Sustainability, Climate Change, Biodiversity, Wildlife, Pollution, Conservation, or Eco-friendly Living.",
+    "Film duration: minimum 1 minute, maximum 5 minutes including credits; exceeding time leads to disqualification.",
+    "Video format: MP4/MOV, resolution minimum 720p HD, landscape preferred; audio and visuals must be clear.",
+    "Original content only; no plagiarism, stock footage, or copied content.",
+    "Content must be ethical, respectful, and socially responsible; offensive, political, religious, or discriminatory content is prohibited.",
+    "Submission deadline: 26/02/2025, 11:59 PM IST; late entries will not be accepted.",
+    "Judging Criteria: Relevance to Theme – 25%, Creativity & Originality – 25%, Message & Impact – 20%, Storytelling & Screenplay – 15%, Technical Quality – 15%.",
+    "Disqualification: plagiarism, irrelevant theme, late submission, unethical content.",
+    "Decision of judges and event coordinators is final and binding."
+  ]
+},
+
+  {
+  "id": 39,
+  "title": "Hand Holding Nature",
+  "tagline": "Express Nature, Sustainability, and Conservation through Art, Craft, and Clay",
+  "category": "creative",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "Flexible (3 Rounds)",
+  "venue": "9th Block Any Classrooms",
+  "eventMode": "Offline",
+  "posterColor": "from-green-700/90 via-emerald-500/80 to-lime-400/90",
+  "gradient": "linear-gradient(135deg, rgba(21,128,61,0.9), rgba(34,197,94,0.8), rgba(164,214,116,0.9))",
+  "image": "/images/events/39.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "1–2 per team",
+  "description": "A multi-round offline event encouraging students to showcase creativity and environmental responsibility using art, craft, and clay sculpting based on nature, sustainability, and conservation themes.",
+  "club": "Nature Club - KARE",
+  "eventCoordinators": [
+    "Ms. Santhiya S - 8524987242",
+    "Ms. Vijaya Srii - 8870446891"
+  ],
+  "rules": [
+    "Maximum 2 participants per team; one submission per round.",
+    "Three rounds: Round 1 – Art, Round 2 – Craft, Round 3 – Sculpting Sustainability (Clay Art).",
+    "Round 1 – Art: 60 minutes, participants bring their own materials, artwork must be on-the-spot, no pre-drawn/digital art, must reflect Nature & Sustainability theme.",
+    "Round 2 – Craft: 60 minutes, participants bring craft materials (waste, paper, cardboard, cloth), use of eco-friendly/recycled materials encouraged, craft must be original and convey environmental message.",
+    "Round 3 – Sculpting Sustainability: 60 minutes, clay provided by organizers, handmade models only, no molds or pre-made structures, sculpture must represent environmental protection or sustainable living.",
+    "Participants must report 15 minutes before the event, mobile phones not allowed, maintain cleanliness and discipline.",
+    "Any copying, malpractice, or disturbance leads to disqualification.",
+    "Judging Criteria: Creativity & Innovation – 25%, Relevance to Theme – 25%, Artistic Skill & Presentation – 20%, Message & Environmental Impact – 20%, Overall Neatness & Effort – 10%.",
+    "Disqualification: Irrelevant work, pre-prepared work, rule violations, indiscipline or misconduct.",
+    "Judges’ decision is final and binding."
+  ]
+},
+
+  {
+  "id": 40,
+  "title": "Plants Not Found",
+  "tagline": "A Botanical Hunt to Explore Campus Biodiversity",
+  "category": "nature",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "45–60 minutes",
+  "venue": "7th Block (Any Classroom)",
+  "eventMode": "Offline",
+  "posterColor": "from-green-600/90 via-lime-400/80 to-emerald-500/90",
+  "gradient": "linear-gradient(135deg, rgba(22,163,74,0.9), rgba(164,214,116,0.8), rgba(34,197,94,0.9))",
+  "image": "/images/events/40.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "2–4 per team",
+  "description": "An interactive botanical hunt designed to enhance students’ knowledge of plant diversity, scientific names, and campus biodiversity through problem-solving, teamwork, and exploration.",
+  "club": "Nature Club - KARE",
+  "eventCoordinators": [
+    "Nishant Venkat - 89252 29003"
+  ],
+  "rules": [
+    "Teams must consist of 2 to 4 members.",
+    "Each team receives a plant-related riddle/problem and must identify the botanical (scientific) name.",
+    "After identification, teams must locate the corresponding plant within the campus.",
+    "Time limit: 45–60 minutes; late submissions will not be considered.",
+    "Proof submission: clear photograph with the plant or QR-based proof as instructed.",
+    "Participants must stay within permitted campus areas; entering restricted zones is prohibited.",
+    "No sharing answers between teams; mobile phones allowed only for photography.",
+    "Do not pluck, damage, or disturb plants; maintain silence and respect for nature.",
+    "Winning Criteria: fastest team with correct identification and valid proof wins; tie-breaker based on accuracy and clarity of proof.",
+    "Disqualification: sharing answers, damaging plants/property, moving outside permitted areas, submitting unclear/incorrect proof.",
+    "Safety: participants are responsible for their own safety; unsafe behavior (running, pushing) is prohibited.",
+    "Judges’ decision is final and binding."
+  ]
+},
+
+{
+  "id": 41,
+  "title": "Squid Game",
+  "tagline": "Survival Challenge Inspired by the Squid Game Concept",
+  "category": "nature",
+  "day": "Day 2",
+  "date": "Feb 28, 2026",
+  "time": "Varies per round",
+  "venue": "Basket Ball Ground",
+  "eventMode": "Offline",
+  "posterColor": "from-red-600/90 via-orange-500/80 to-yellow-400/90",
+  "gradient": "linear-gradient(135deg, rgba(220,38,38,0.9), rgba(251,191,36,0.8), rgba(250,204,21,0.9))",
+  "image": "/images/events/41.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "3 per team",
+  "description": "A high-intensity team-based physical challenge inspired by survival games. Teams navigate three elimination rounds testing observation, coordination, discipline, trust, and communication.",
+  "club": "Nature Club - KARE",
+  "eventCoordinators": [
+    "Mr. Rahul - +91 80152 84808",
+    "Ms. B S Renuka - +91 83000 42846"
+  ],
+  "rules": [
+    "Each team must have exactly 3 members; no changes after registration.",
+    "The event has three elimination rounds; teams must clear each round to proceed.",
+    "Round 1: Find the Place & Connect the Match. Solve clues/puzzles to identify locations; wrong answers = elimination.",
+    "Round 2: Cross the Line (Stop & Start Challenge). Teams must move on 'START' and freeze on 'STOP'; moving during STOP = elimination.",
+    "Round 3: Cross the Finish Line (Blindfold Challenge with Obstacles). One member blindfolded; others guide using voice only; touching obstacles or blindfolded member = penalty/elimination.",
+    "Mobile phones are strictly prohibited during the event.",
+    "Participants must report 15 minutes early and follow organizer/volunteer instructions.",
+    "Unsafe behavior, indiscipline, or misconduct = immediate elimination.",
+    "Winning criteria: Accuracy (Round 1), discipline (Round 2), coordination, speed & communication (Round 3), overall team performance.",
+    "Judges’ decision is final and binding."
+  ],
+  "disqualification": [
+    "Violation of rules",
+    "Indiscipline or misconduct",
+    "Cheating or unfair practices",
+    "Ignoring volunteer instructions"
+  ]
+},
+
+  {
+  "id": 42,
+  "title": "Mr. and Ms. Sparks",
+  "tagline": "A Dazzling Fashion Showdown of Style and Chemistry",
+  "category": "fashion",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "Varies per performance",
+  "venue": "K.S. Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-pink-600/90 via-red-500/80 to-yellow-400/90",
+  "gradient": "linear-gradient(135deg, rgba(236,72,153,0.9), rgba(239,68,68,0.8), rgba(251,191,36,0.9))",
+  "image": "/images/events/42.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "2 per team",
+  "description": "A coordinated fashion and stage performance event celebrating style, synergy, and confidence. Teams showcase themed costumes and stage presence in a creative runway challenge.",
+  "club": "Pyros Fine Arts",
+  "eventCoordinators": [
+    "Abhishek - +91 80159 84369",
+    "Sakshi - +91 62991 28031"
+  ],
+  "rules": [
+    "Maximum 2 participants per team.",
+    "Performance duration should not exceed 2 minutes.",
+    "Teams must bring their own props; props should be safe and not damage the stage.",
+    "Costumes should follow the 'Cinema' theme; sleeveless, shorts, and bodycons are prohibited.",
+    "Participants must arrive on time; latecomers may be disqualified.",
+    "Background track must be sent to coordinators 1 day prior and carried on a USB as backup.",
+    "Judging criteria: Creativity, Team Coordination, Costumes, Adherence to theme, and Explanation.",
+    "Decision of judges is final and binding."
+  ],
+  "disqualification": [
+    "Late arrival",
+    "Dress code non-compliance",
+    "Deviation from the given theme"
+  ]
+},
+
+  {
+  "id": 43,
+  "title": "Sparks 2k26 - Fashion Squad",
+  "tagline": "Turn the Runway into a Cinematic Spectacle",
+  "category": "fashion",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "Varies per performance",
+  "venue": "K.S. Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-purple-600/90 via-pink-500/80 to-orange-400/90",
+  "gradient": "linear-gradient(135deg, rgba(139,92,246,0.9), rgba(236,72,153,0.8), rgba(251,191,36,0.9))",
+  "image": "/images/events/43.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "6–10 per team",
+  "description": "A team fashion event where participants showcase cinema-inspired costumes, iconic characters, and legendary scenes. Teams perform on stage with props and background music to bring movie magic to life.",
+  "club": "Pyros Fine Arts",
+  "eventCoordinators": [
+    "Nakshatra Ganesh - +91 83007 01376",
+    "Moksha Soroopa B - +91 80725 15299"
+  ],
+  "rules": [
+    "Maximum 6–10 participants per team.",
+    "Performance duration should not exceed 5–10 minutes.",
+    "Teams must bring their own props; props should be safe and not damage the stage.",
+    "Costumes should follow the 'Cinema' theme; sleeveless, shorts, and bodycons are prohibited.",
+    "Participants must arrive on time; latecomers may be disqualified.",
+    "Background track must be sent to coordinators 1 day prior and carried on a USB as backup.",
+    "Judging criteria: Creativity, Team Coordination, Costumes, Adherence to theme, and Explanation.",
+    "Decision of judges is final and binding."
+  ],
+  "disqualification": [
+    "Late arrival",
+    "Dress code non-compliance",
+    "Deviation from the given theme"
+  ]
+},
+
+  {
+  "id": 44,
+  "title": "Paper Dressing",
+  "tagline": "Fashion Meets Sustainability",
+  "category": "fashion",
+  "day": "Day 2",
+  "date": "Feb 28, 2026",
+  "time": "2 hours (exact schedule as per organizers)",
+  "venue": "K.S. Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-green-400/90 via-yellow-300/80 to-orange-400/90",
+  "gradient": "linear-gradient(135deg, rgba(34,197,94,0.9), rgba(253,224,71,0.8), rgba(251,191,36,0.9))",
+  "image": "/images/events/44.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "Maximum 3 per team",
+  "description": "A creative fashion event where participants design and showcase costumes made entirely from paper, emphasizing imagination, innovation, and sustainability.",
+  "club": "Pyros Fine Arts",
+  "eventCoordinators": [
+    "Akhil C - +91 90636 17718",
+    "Deepak Kumaran - +91 79040 46651"
+  ],
+  "rules": [
+    "Maximum 3 participants per team.",
+    "Event duration: 2 hours for design, creation, and presentation.",
+    "Teams must bring their own materials; newspapers will be provided.",
+    "Participants are encouraged to express their own creative themes in costumes.",
+    "Participants must arrive on time; latecomers may be disqualified.",
+    "Judging criteria: Creativity, Costumes, Adherence to theme, and Explanation.",
+    "Decision of judges is final and binding."
+  ],
+  "disqualification": [
+    "Late arrival",
+    "Dress code non-compliance",
+    "Deviation from the given theme"
+  ]
+},
+
+  {
+  "id": 45,
+  "title": "Theme Photography Competition",
+  "tagline": "Reflections of Sparkz",
+  "category": "photography",
+  "day": "Day 2",
+  "date": "Feb 28, 2026",
+  "time": "During Sparkz (27th–28th February), submission by 11:00 AM",
+  "venue": "Online",
+  "eventMode": "Online",
+  "posterColor": "from-blue-500/90 via-purple-500/80 to-pink-500/90",
+  "gradient": "linear-gradient(135deg, rgba(59,130,246,0.9), rgba(139,92,246,0.8), rgba(236,72,153,0.9))",
+  "image": "/images/events/45.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "Individual entry only, one photograph per participant",
+  "description": "Participants capture reflections that represent the spirit and energy of Sparkz using original photos taken during the event.",
+  "club": "Photography Club",
+  "eventCoordinators": [
+    "B. Veera Sai Vineeth Kumar Reddy - 7981881695",
+    "Prem - 88854 62451"
+  ],
+  "rules": [
+    "Photographs must be taken only during Sparkz (27th–28th February).",
+    "Mobile phones or DSLR cameras are allowed.",
+    "Only basic color correction is permitted; AI-generated or downloaded images are prohibited.",
+    "One photograph per participant.",
+    "Email submission with subject: Competition Name – Participant Name – Department – Contact Number.",
+    "Photograph must be original and captured during Sparkz.",
+    "Submission deadline: Feb 28, 2026 – 11:00 AM.",
+    "Judging criteria: Theme relevance, Composition & creativity, Visual clarity, Originality."
+  ]
+},
+
+  {
+  "id": 46,
+  "title": "Sparks 2k26 - Fashion Squad",
+  "tagline": "Cinema-Inspired Fashion Showcase",
+  "category": "fashion",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "5–10 minutes",
+  "venue": "K.S. Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-pink-600/90 via-purple-500/80 to-indigo-500/90",
+  "gradient": "linear-gradient(135deg, rgba(219,39,119,0.9), rgba(139,92,246,0.8), rgba(79,70,229,0.9))",
+  "image": "/images/events/46.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "6–10 members per team",
+  "description": "Turn the runway into a movie frame showcasing looks inspired by cinema. From iconic characters to legendary scenes, participants let fashion be their script and confidence their star power.",
+  "club": "Pyros Fine Arts",
+  "eventCoordinators": [
+    "Nakshatra Ganesh - +91 83007 01376",
+    "Moksha Soroopa B - +91 80725 15299"
+  ],
+  "rules": [
+    "Team size: 6–10 participants.",
+    "Performance duration: 5–10 minutes.",
+    "Teams must bring their own props, which should not damage the stage or inconvenience others.",
+    "Costumes should follow the theme 'Cinema'. Sleeveless, shorts, and bodycons are not allowed.",
+    "Participants must arrive on time; latecomers will not be excused.",
+    "Background track should be submitted to coordinators one day prior and carried as backup on a USB drive.",
+    "Judging Criteria: creativity, team coordination, costumes, adherence to theme, explanation.",
+    "Disqualification: late arrival, dress code non-compliance, deviation from theme.",
+    "Judges’ decision is final and binding."
+  ]
+},
+
+  {
+  "id": 47,
+  "title": "BATTLE OF THE BANDS",
+  "tagline": "Electrifying Musical Showdown for Bands",
+  "category": "music",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "15 minutes (5 min setup + 10 min performance)",
+  "venue": "K S Auditorium",
+  "eventMode": "Offline",
+  "posterColor": "from-red-600/90 via-orange-500/80 to-yellow-400/90",
+  "gradient": "linear-gradient(135deg, rgba(220,38,38,0.9), rgba(251,191,36,0.8), rgba(252,211,77,0.9))",
+  "image": "/images/events/47.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "4–8 members per band (at least 1 vocalist)",
+  "description": "Unleash raw energy, tight rhythms, and powerful vocals as bands clash in an electrifying musical showdown! From thunderous drums to soaring melodies, this is your chance to own the stage, ignite the crowd, and prove your band’s musical might.",
+  "club": "Fine Arts Club - Pyros",
+  "eventCoordinators": [
+    "Iniyan - 7305611588",
+    "Joy - 9597385964"
+  ],
+  "rules": [
+    "Bands must have 4–8 members, with at least one vocalist.",
+    "Each college may send only one band as specified by organizers.",
+    "All participants must carry valid college ID and ticket for verification.",
+    "Registration can be done online or at the event desk.",
+    "Performance duration: 15 minutes total (5 min setup + 10 min performance). Exceeding time may result in penalty marks or disqualification at judges’ discretion.",
+    "Only live performances allowed; pre-recorded tracks are prohibited.",
+    "Lyrics must be clean, appropriate, and non-offensive.",
+    "Basic sound system and drum kit will be provided; bands must bring their own instruments.",
+    "Sound check will be conducted 30 minutes before the event.",
+    "Judging Criteria: musical arrangement and originality, vocal and instrumental coordination, rhythm, timing, technical skill, stage presence, crowd engagement, overall impact.",
+    "Disqualification: use of offensive content, equipment tampering, violation of time limits.",
+    "The decision of judges is final and binding.",
+    "Organizers reserve the right to modify rules or schedule if necessary.",
+    "Certificates and prizes will be awarded to winners as per event norms."
+  ]
+},
+
+  {
+  "id": 48,
+  "title": "PABBA KANTHI KUMAR",
+  "tagline": "Instagram Reels Challenge – Capture Sparkz Moments",
+  "category": "photography",
+  "day": "Day 2",
+  "date": "Feb 28, 2026",
+  "time": "15–60 seconds",
+  "venue": "Online",
+  "eventMode": "Online",
+  "posterColor": "from-pink-600/90 via-fuchsia-500/80 to-purple-500/90",
+  "gradient": "linear-gradient(135deg, rgba(219,39,119,0.9), rgba(168,85,247,0.8), rgba(139,92,246,0.9))",
+  "image": "/images/events/48.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "Individual",
+  "description": "The Instagram Reels Challenge invites participants to creatively capture the essence of Sparkz through engaging short videos that showcase its moments, people, and campus atmosphere. Participants must visually narrate their experience of Sparkz using original content created only during the event.",
+  "club": "Photography Club",
+  "eventCoordinators": [
+    "Kanthi Kumar - 9502206035",
+    "Janarthanan - 9344239514"
+  ],
+  "rules": [
+    "Duration: 15–60 seconds.",
+    "Reels must be recorded only during Sparkz; content must be original.",
+    "Dialogues are optional; natural sound and background music may be used.",
+    "Equipment: Mobile phone or camera; basic editing allowed; heavy VFX and AI-generated effects prohibited.",
+    "One entry per participant.",
+    "Submission: Email reel or drive link to photographyclub@klu.ac.in.",
+    "Email subject format: Competition Name – Participant Name – Department – Contact Number.",
+    "Deadline for submission: February 28, 2026 – 9:00 AM.",
+    "Judging Criteria: creativity, relevance to theme, visual appeal, engagement.",
+    "Event coordinators' decision is final and binding."
+  ]
+},
+
+  {
+  "id": 49,
+  "title": "Tissue Art",
+  "tagline": "Creative and Eco-Friendly Art with Tissue Paper",
+  "category": "fine arts",
+  "day": "Day 2",
+  "date": "Feb 28, 2026",
+  "time": "Flexible / Onspot",
+  "venue": "Tiffac Core",
+  "eventMode": "Offline",
+  "posterColor": "from-pink-500/90 via-rose-400/80 to-fuchsia-500/90",
+  "gradient": "linear-gradient(135deg, rgba(236,72,153,0.9), rgba(251,207,232,0.8), rgba(236,72,153,0.9))",
+  "image": "/images/events/49.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "Individual / Team",
+  "description": "Tissue art is a creative and expressive art form using tissue paper as the primary medium to create decorative and meaningful artworks. Participants will use folding, layering, crumpling, twisting, and tearing techniques to transform simple tissue paper into visually rich compositions. This activity promotes creativity, patience, fine motor skills, and sustainable art practices.",
+  "club": "Pyros",
+  "eventCoordinators": [
+    "Harini P - 7639106263",
+    "Vishaka - 8778660705"
+  ],
+  "rules": [
+    "Participants must bring their own tissue paper and basic materials (glue, scissors, base surface).",
+    "Optional materials like wire, beads, thread, or paint can be used for additional detailing.",
+    "Artworks must be created on the spot; no pre-made tissue art allowed.",
+    "Techniques allowed: layering, crumpling, folding, twisting, and tearing.",
+    "Participants may work individually or in teams.",
+    "Time limit is as per organizer's discretion during the event.",
+    "The artwork should reflect creativity, visual appeal, technique, and originality.",
+    "Maintain discipline and cleanliness at the venue.",
+    "Judges’ decision is final and binding."
+  ]
+},
+
+  {
+  "id": 50,
+  "title": "Bad Endings Only",
+  "tagline": "Rewrite Stories with Unexpected, Humorous, or Ironic Endings",
+  "category": "fine arts",
+  "day": "Day 2",
+  "date": "Feb 28, 2026",
+  "time": "60 seconds per team",
+  "venue": "9th Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-red-600/90 via-orange-400/80 to-yellow-500/90",
+  "gradient": "linear-gradient(135deg, rgba(220,38,38,0.9), rgba(251,191,36,0.8), rgba(253,230,138,0.9))",
+  "image": "/images/events/50.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "2–4 per team",
+  "description": "This fun-filled event invites participants to rewrite the endings of popular movies, stories, series, or myths in the most unexpected, humorous, or ironic way possible. Participants must showcase creativity, spontaneity, and imagination by breaking the rules of storytelling, with no prior preparation allowed.",
+  "club": "Fine Arts",
+  "eventCoordinators": [
+    "T Naga Shreyasa - 7337480700",
+    "P Vedha - 9150759379"
+  ],
+  "rules": [
+    "Teams must consist of 2 to 4 participants.",
+    "Each team gets 60 seconds to present their rewritten ending.",
+    "Teams will be given a familiar storyline (movie, series, fairytale, or myth).",
+    "Participants must rewrite the ending in one short paragraph, making it unexpected, humorous, or ironic.",
+    "One member from each team must narrate the ending; presentation style is open and informal.",
+    "Use of offensive or inappropriate content is strictly prohibited.",
+    "Judging criteria: creativity, originality, entertainment value, and audience engagement.",
+    "Disqualification: exceeding time limit, inappropriate/offensive content, or violation of event rules.",
+    "Participants must maintain discipline and respect at the venue.",
+    "Judges’ decision is final and binding."
+  ]
+},
+
+  {
+  "id": 51,
+  "title": "Dialogue Quiz",
+  "tagline": "Guess Iconic Movie Dialogues from Scenes and Partial Lines",
+  "category": "VISHAKA",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "1 hr 30 min",
+  "venue": "9th Block Seminar Hall",
+  "eventMode": "Offline",
+  "posterColor": "from-blue-600/90 via-indigo-400/80 to-purple-500/90",
+  "gradient": "linear-gradient(135deg, rgba(59,130,246,0.9), rgba(129,140,248,0.8), rgba(139,92,246,0.9))",
+  "image": "/images/events/51.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "Solo or Team of 2",
+  "description": "Participants are given a movie scene description or partial dialogue and must guess the correct iconic dialogue. Those with the highest number of correct answers will be declared winners.",
+  "club": "VISHAKA",
+  "eventCoordinators": [
+    "Harsha Pavan - 9347218829",
+    "Phaneendra - 8121322344"
+  ],
+  "rules": [
+    "Each participant/team receives one question at a time.",
+    "Host describes a scene or reads a partial dialogue.",
+    "Participants must answer within 10–15 seconds.",
+    "If unanswered, the question may pass to the next participant/team.",
+    "Mobile phones and external help are strictly prohibited.",
+    "Judging criteria: number of correct answers, accuracy of dialogue (minor wording differences allowed), bonus points for correct movie name.",
+    "Tie-breaker rounds will be conducted in case of a tie.",
+    "Disqualification: using mobile phones or internet assistance, arguing with coordinators, repeated violation of time limits.",
+    "Participants must maintain discipline at the venue.",
+    "Judges’ decision is final and binding."
+  ]
+},
+
+  {
+  "id": 52,
+  "title": "BGMI",
+  "tagline": "Online BGMI Tournament – Test Your Gaming Skills",
+  "category": "FAC",
+  "day": "Day 1",
+  "date": "Feb 27, 2026",
+  "time": "Online Tournament Duration as per rounds",
+  "venue": "Online",
+  "eventMode": "Online",
+  "posterColor": "from-orange-500/90 via-red-400/80 to-rose-500/90",
+  "gradient": "linear-gradient(135deg, rgba(249,115,22,0.9), rgba(248,113,113,0.8), rgba(244,63,94,0.9))",
+  "image": "/images/events/52.jpg",
+  "featured": false,
+  "seats": "Open",
+  "participants": "Teams as per tournament rules",
+  "description": "An online BGMI tournament where participants compete in Classic and TDM matches following official rules, testing strategy, coordination, and reflexes.",
+  "club": "FAC",
+  "eventCoordinators": [
+    "Aadithya - 7812852841",
+    "Laksan - 9626285763"
+  ],
+  "rules": [
+    "All official BGMI rules are applicable; no hacking, cheating, or teaming up.",
+    "Emulator & iPad players are not allowed; minimum account level: 50.",
+    "Teams must enter the room at least 5 minutes before start; late entries will not be entertained.",
+    "Suspected hacking must be recorded and submitted with proof; false allegations are prohibited.",
+    "Match result screenshots must be submitted to confirm position.",
+    "Classic Match Rules: flare guns, emergency kits, grenades, and Level 3 items are not allowed; players cannot hold the same position for more than 15 seconds; slide OFF; only M4, SCAR-L, and pistols allowed.",
+    "TDM Match Rules: all general rules apply; no grenades; no Level 3 gear; slide OFF; no camping allowed; only M4, SCAR-L, and pistols allowed; fair play strictly enforced.",
+    "Qualification Rules: top 3 teams qualify for Round 2; any player with 8 finishes qualifies directly; past BGIS 2024/2025 participants above Round 3 qualify directly.",
+    "Disqualification: violating any of the above rules or unfair play.",
+    "Judges/organizers’ decisions are final and binding."
+  ]
+}
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "title": "STARRY NIGHT",
+    "headliner": "DJ NIGHT WITH CELEBRITY ARTISTS",
+    "description": "An electrifying night with top DJs and celebrity performances under the stars. Experience state-of-the-art sound systems, laser shows, and an unforgettable party atmosphere with the best in the industry.",
+    "tagline": "Electrifying Beats Under the Stars",
+    "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80",
+    "gradient": "linear-gradient(135deg, #f59e0b, #d97706, #f59e0b)",
+    "date": "2026-02-15",
+    "day": "DAY 1",
+    "time": "8:00 PM - 12:00 AM",
+    "venue": "MAIN ARENA",
+    "capacity": "Limited to 500 Guests",
+    "price": "₹2500",
+    "rating": 4.9,
+    "demand": "Sold Out Last Year",
+    "features": [
+      "Top International DJs",
+      "Celebrity Performances",
+      "Premium Sound System",
+      "Laser & Light Show",
+      "VIP Lounge Access"
+    ],
+    "eventCoordinators": [
+      "Event Manager - 9876543210",
+      "VIP Coordinator - 9876543211"
+    ],
+    "rules": [
+      "VIP Pass required for entry",
+      "Valid ID proof mandatory",
+      "No refunds for cancellations",
+      "Dress code: Smart Casual",
+      "Age restriction: 18+"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "COMEDY SPECIAL",
+    "headliner": "STAND-UP WITH TOP COMEDIANS",
+    "description": "An evening of laughter with India's top stand-up comedians. Exclusive performance featuring celebrity comedians with fresh material and interactive sessions.",
+    "tagline": "Laugh Until You Cry",
+    "image": "https://images.unsplash.com/photo-1549576490-b0b4831ef60a?auto=format&fit=crop&w=800&q=80",
+    "gradient": "linear-gradient(135deg, #8b5cf6, #7c3aed, #8b5cf6)",
+    "date": "2026-02-16",
+    "day": "DAY 2",
+    "time": "7:00 PM - 10:00 PM",
+    "venue": "GRAND AUDITORIUM",
+    "capacity": "Limited to 300 Seats",
+    "price": "₹2000",
+    "rating": 4.8,
+    "demand": "High Demand",
+    "features": [
+      "Celebrity Comedians",
+      "Exclusive Material",
+      "Meet & Greet",
+      "Photo Opportunities",
+      "Comedy Merchandise"
+    ],
+    "eventCoordinators": [
+      "Creative Director - 9876543212",
+      "Hospitality Manager - 9876543213"
+    ],
+    "rules": [
+      "No recording allowed",
+      "Respectful behavior mandatory",
+      "Seats allocated on first-come basis",
+      "No late entry after show starts"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "BAND PERFORMANCE",
+    "headliner": "LIVE CONCERT WITH RENOWNED BANDS",
+    "description": "Experience the magic of live music with performances by renowned bands across genres. From rock to indie, this concert promises an unforgettable musical journey.",
+    "tagline": "Live Music Extravaganza",
+    "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80",
+    "gradient": "linear-gradient(135deg, #ef4444, #dc2626, #ef4444)",
+    "date": "2026-02-17",
+    "day": "DAY 3",
+    "time": "6:30 PM - 11:00 PM",
+    "venue": "OUTDOOR AMPHITHEATER",
+    "capacity": "Limited to 1000 Guests",
+    "price": "₹3000",
+    "rating": 4.9,
+    "demand": "Almost Sold Out",
+    "features": [
+      "Multiple Band Performances",
+      "Open Air Venue",
+      "Food & Beverage Counters",
+      "Merchandise Stalls",
+      "Artist Interactions"
+    ],
+    "eventCoordinators": [
+      "Music Director - 9876543214",
+      "Stage Manager - 9876543215"
+    ],
+    "rules": [
+      "No outside food or drinks",
+      "No flash photography",
+      "Maintain venue cleanliness",
+      "Follow security instructions"
+    ]
+  }
+]
