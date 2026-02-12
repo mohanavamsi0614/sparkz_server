@@ -157,7 +157,8 @@ route.post("/event/proshow",async (req,res)=>{
         // Fetch latest user data to check for duplicates
         const dbUser = await db.collection("user").findOne({_id: new ObjectId(user._id)});
         if (!dbUser) return res.status(404).json({ error: "User not found" });
-
+        const eventReg=dbUser.events||[]
+        if(!eventReg) return res.status(400).json({ error: "please reg for events first" });
         const existingProshows = dbUser.proshow || [];
         
         
