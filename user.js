@@ -32,13 +32,19 @@ import axios from "axios";
 
 route.post("/kare",async (req,res)=>{
     try {
-        const body=req.body
-        const result=await db.collection("user").insertOne(body)
-        if(body.email && body.name) {
-            await sendWelcomeEmail(body.email, body.name);
+        const {email,name}=req.body
+        const user=await db.collection("user").findOne({email})
+        if(user) {
+            return res.status(200).json(user);
+        }
+        else{
+        const result=await db.collection("user").insertOne({email,name})
+        if(email && name) {
+            await sendWelcomeEmail(email, name);
         }
         const user = await db.collection("user").findOne({_id: result.insertedId});
         res.json(user)
+    }
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: "Internal Server Error" });
