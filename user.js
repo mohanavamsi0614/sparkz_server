@@ -28,6 +28,7 @@ route.get("/:id",async(req,res)=>{
 })
 
 import { sendWelcomeEmail } from "./mailer.js";
+import axios from "axios";
 
 route.post("/kare",async (req,res)=>{
     try {
@@ -136,13 +137,12 @@ route.post("/event/normal",async (req,res)=>{
         
         // Handle single event object or array of events (cart) for email text
         const eventName = newEvents.map(e => e.title).join(", ");
-
-        await transporter.sendMail({
-            from: `"Sparkz" <${process.env.EMAIL_USER}>`,
-            to: user.email,
-            subject: "Sparkz Event Registration Confirmed",
-            html: getHtmlTemplate(user.name, eventName, qrUrl),
-        });
+        axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
+            to:user.email,
+            subject:"Sparkz Event Registration Confirmed",
+            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
+            html:getHtmlTemplate(user.name, eventName, qrUrl)
+        })
         res.json("done")
     } catch (error) {
         console.error(error);
@@ -160,11 +160,6 @@ route.post("/event/proshow",async (req,res)=>{
 
         const existingProshows = dbUser.proshow || [];
         
-        // Check if user already has ANY proshow registration (assuming 1 per user as requested)
-        // Or if specific type checks are needed. For now, checking if they have this specific proshow type.
-        // User request: "cant reg angain ... for pro show again" -> Implies one proshow total or one per type.
-        // Let's being strict: If they have ANY proshow registration, warn them? 
-        // Or better, check if they already have THIS ticket type.
         
         const isDuplicate = existingProshows.some(ep => ep.type === event.type);
         if (isDuplicate) {
@@ -177,13 +172,12 @@ route.post("/event/proshow",async (req,res)=>{
         await db.collection("proshow").insertOne({...user,type:event.type, transactionId, paymentScreenshot, upiId, date: new Date()})
         const qrUrl=QR_URL+user._id
         db.collection("user").updateOne({_id:new ObjectId(user._id)},{$push:{proshow:event}})
-        
-        await transporter.sendMail({
-            from: `"Sparkz" <${process.env.EMAIL_USER}>`,
-            to: user.email,
-            subject: "Proshow VIP Pass Confirmed",
-            html: getHtmlTemplate(user.name, event.name, qrUrl),
-        });
+        axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
+            to:user.email,
+            subject:"Proshow VIP Pass Confirmed",
+            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${event.name}.\n\nBest regards,\nSparkz Team`,
+            html:getHtmlTemplate(user.name, event.name, qrUrl)
+        })
         res.json("done")
     } catch (error) {
         console.error(error);
