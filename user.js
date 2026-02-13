@@ -116,7 +116,7 @@ const getHtmlTemplate = (userName, eventName, qrUrl) => `
 
 route.post("/event/normal",async (req,res)=>{
     try {
-        const {event,user,transactionId,paymentScreenshot}=req.body
+        const {event,user,transactionId,paymentScreenshot,upiId}=req.body
         
         // Fetch latest user data to check for duplicates
         const dbUser = await db.collection("user").findOne({_id: new ObjectId(user._id)});
@@ -145,7 +145,7 @@ route.post("/event/normal",async (req,res)=>{
         }
 
         db.collection("user").updateOne({_id:new ObjectId(user._id)},{$push:{events:{$each: newEvents}}})
-        await db.collection("normal").insertOne({event,user,transactionId,paymentScreenshot, date: new Date()})
+        await db.collection("normal").insertOne({event,user,transactionId,paymentScreenshot,upiId, date: new Date()})
         const qrUrl=QR_URL+user._id
         
         // Handle single event object or array of events (cart) for email text
