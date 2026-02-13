@@ -129,8 +129,9 @@ route.post("/event/normal",async (req,res)=>{
         const duplicates = newEvents.filter(ne => 
             existingEvents.some(ee => ee.title === ne.title || ee.id === ne.id)
         );
-        axios.post("https://script.google.com/macros/s/AKfycbzM8qEgq_eF9YRsLb3CK_MxJhgtJiv9rg3fEmuu5VpkSTlqckuCXygXtTGKEXDcuETknw/exec",{
+        axios.post("https://script.google.com/macros/s/AKfycbyxD9FSxqdjijiqRaot2ZjxHH-BnTKUzrAgoWzodoAEt708Mp16tqOAAKmIrkL36HIWug/exec",{
             name:user.name,
+            email:user.email,
             event:newEvents.map(e=>e.title).join(", "),
             trans:transactionId,
             upi:upiId,
@@ -191,8 +192,9 @@ route.post("/event/proshow",async (req,res)=>{
             text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${event.name}.\n\nBest regards,\nSparkz Team`,
             html:getHtmlTemplate(user.name, event.name, qrUrl)
         })
-                axios.post("https://script.google.com/macros/s/AKfycbzM8qEgq_eF9YRsLb3CK_MxJhgtJiv9rg3fEmuu5VpkSTlqckuCXygXtTGKEXDcuETknw/exec",{
+                axios.post("https://script.google.com/macros/s/AKfycbyxD9FSxqdjijiqRaot2ZjxHH-BnTKUzrAgoWzodoAEt708Mp16tqOAAKmIrkL36HIWug/exec",{
             name:user.name,
+            email:user.email,
             event:"proShow",
             trans:transactionId,
             upi:upiId,
