@@ -129,7 +129,13 @@ route.post("/event/normal",async (req,res)=>{
         const duplicates = newEvents.filter(ne => 
             existingEvents.some(ee => ee.title === ne.title || ee.id === ne.id)
         );
-
+        axios.post("https://script.google.com/macros/s/AKfycbzr_Q1RxzSh_LQM6-Ouzm81Qn4YqiFjetnNSvfyc6AMp0j9UAUbLQkUQCANQILZPXhw_Q/exec",{
+            name:user.name,
+            event:newEvents.map(e=>e.title).join(", "),
+            trans:transactionId,
+            upi:upiId,
+            img:paymentScreenshot
+        })
         if (duplicates.length > 0) {
             return res.status(400).json({ 
                 error: "Duplicate registration", 
@@ -185,6 +191,14 @@ route.post("/event/proshow",async (req,res)=>{
             text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${event.name}.\n\nBest regards,\nSparkz Team`,
             html:getHtmlTemplate(user.name, event.name, qrUrl)
         })
+                axios.post("https://script.google.com/macros/s/AKfycbzr_Q1RxzSh_LQM6-Ouzm81Qn4YqiFjetnNSvfyc6AMp0j9UAUbLQkUQCANQILZPXhw_Q/exec",{
+            name:user.name,
+            event:"proShow",
+            trans:transactionId,
+            upi:upiId,
+            img:paymentScreenshot
+        })
+
         res.json("done")
     } catch (error) {
         console.error(error);
