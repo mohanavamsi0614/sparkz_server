@@ -117,7 +117,6 @@ const getHtmlTemplate = (userName, eventName, qrUrl) => `
 route.post("/event/normal",async (req,res)=>{
     try {
         const {event,user,transactionId,paymentScreenshot,upiId,proshow,accommodation}=req.body
-        console.log(event)
         // Fetch latest user data to check for duplicates
         const dbUser = await db.collection("user").findOne({_id: new ObjectId(user._id)});
         if (!dbUser) return res.status(404).json({ error: "User not found" });
@@ -137,7 +136,10 @@ route.post("/event/normal",async (req,res)=>{
             upi:upiId,
             img:paymentScreenshot,
             proshow:proshow,
-            accommodation:accommodation
+            accommodation:accommodation,
+            collage:user.collage || "kare",
+            branch:user.branch,
+            year:user.year
         })
         if (duplicates.length > 0) {
             return res.status(400).json({ 
