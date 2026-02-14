@@ -116,8 +116,8 @@ const getHtmlTemplate = (userName, eventName, qrUrl) => `
 
 route.post("/event/normal",async (req,res)=>{
     try {
-        const {event,user,transactionId,paymentScreenshot,upiId}=req.body
-        
+        const {event,user,transactionId,paymentScreenshot,upiId,proshow,accommodation}=req.body
+        console.log(event)
         // Fetch latest user data to check for duplicates
         const dbUser = await db.collection("user").findOne({_id: new ObjectId(user._id)});
         if (!dbUser) return res.status(404).json({ error: "User not found" });
@@ -135,7 +135,9 @@ route.post("/event/normal",async (req,res)=>{
             event:newEvents.map(e=>e.title).join(", "),
             trans:transactionId,
             upi:upiId,
-            img:paymentScreenshot
+            img:paymentScreenshot,
+            proshow:proshow,
+            accommodation:accommodation
         })
         if (duplicates.length > 0) {
             return res.status(400).json({ 
@@ -146,9 +148,12 @@ route.post("/event/normal",async (req,res)=>{
 
         db.collection("user").updateOne({_id:new ObjectId(user._id)},{$push:{events:{$each: newEvents}}})
         await db.collection("normal").insertOne({event,user,transactionId,paymentScreenshot,upiId, date: new Date()})
+        if(proshow){
+            db.collection("proshow").insertOne({event,user,transactionId,paymentScreenshot,upiId, date: new Date()})
+            db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{proshow:{transactionId,paymentScreenshot,upiId, date: new Date()}}})
+        }
         const qrUrl=QR_URL+user._id
         
-        // Handle single event object or array of events (cart) for email text
         const eventName = newEvents.map(e => e.title).join(", ");
         axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
