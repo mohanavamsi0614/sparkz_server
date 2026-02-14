@@ -129,7 +129,7 @@ route.post("/event/normal",async (req,res)=>{
         const duplicates = newEvents.filter(ne => 
             existingEvents.some(ee => ee.title === ne.title || ee.id === ne.id)
         );
-        axios.post("https://script.google.com/macros/s/AKfycbyxD9FSxqdjijiqRaot2ZjxHH-BnTKUzrAgoWzodoAEt708Mp16tqOAAKmIrkL36HIWug/exec",{
+        axios.post("https://script.google.com/macros/s/AKfycbx2oE_oZRVegCODYsJ1_c52XHxLkSOzpQfetBHh3bBi0oYbGYELQ8ZT838qkX5OylPKHQ/exec",{
             name:user.name,
             email:user.email,
             event:newEvents.map(e=>e.title).join(", "),
