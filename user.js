@@ -157,12 +157,12 @@ route.post("/event/normal",async (req,res)=>{
         const qrUrl=QR_URL+user._id
         
         const eventName = newEvents.map(e => e.title).join(", ");
-        axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
-            to:user.email,
-            subject:"Sparkz Event Registration Confirmed",
-            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
-            html:getHtmlTemplate(user.name, eventName, qrUrl)
-        })
+        // axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
+        //     to:user.email,
+        //     subject:"Sparkz Event Registration Confirmed",
+        //     text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
+        //     html:getHtmlTemplate(user.name, eventName, qrUrl)
+        // })
         res.json("done")
     } catch (error) {
         console.error(error);
