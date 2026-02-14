@@ -194,7 +194,7 @@ route.post("/event/proshow",async (req,res)=>{
 
         await db.collection("proshow").insertOne({...user,type:event.type, transactionId, paymentScreenshot, upiId, date: new Date()})
         const qrUrl=QR_URL+user._id
-        db.collection("user").updateOne({_id:new ObjectId(user._id)},{$push:{proshow:event}})
+        db.collection("user").updateOne({_id:new ObjectId(user._id)},{$push:{proshow:event,transactionId,upiId,paymentScreenshot}})
         axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
             subject:"Proshow VIP Pass Confirmed",
