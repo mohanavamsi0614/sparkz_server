@@ -120,10 +120,12 @@ route.post("/event/normal",async (req,res)=>{
         // Fetch latest user data to check for duplicates
         const dbUser = await db.collection("user").findOne({_id: new ObjectId(user._id)});
         if (!dbUser) return res.status(404).json({ error: "User not found" });
-
+if(dbUser.events){
+    return res.status(400).json({ error: "Duplicate registration" });
+}
         const existingEvents = dbUser.events || [];
         const newEvents = Array.isArray(event) ? event : [event];
-
+        
         // Check for duplicates
         const duplicates = newEvents.filter(ne => 
             existingEvents.some(ee => ee.title === ne.title || ee.id === ne.id)
