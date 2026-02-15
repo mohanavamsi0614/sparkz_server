@@ -113,7 +113,26 @@ const getHtmlTemplate = (userName, eventName, qrUrl) => `
 </body>
 </html>
 `;
+route.post("/verify/:id",async (req,res)=>{
+    try {
+        const {id}=req.params
+        const user=await db.collection("user").findOne({_id:new ObjectId(id)})
+        db.collection("user").updateOne({_id:new ObjectId(id)},{$set:{verified:true}})
+        const qrUrl=QR_URL+user._id
+        const eventName = user.events.map(e => e.title).join(", ");
+        axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
+            to:user.email,
+            subject:"Sparkz Event Registration Confirmed",
+            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
+            html:getHtmlTemplate(user.name, eventName, qrUrl)
+        })
 
+        res.json({message:"User verified successfully"})
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: "Internal Server Error" });
+    }
+})
 route.post("/event/normal",async (req,res)=>{
     try {
         const {event,user,transactionId,paymentScreenshot,upiId,proshow,accommodation}=req.body
