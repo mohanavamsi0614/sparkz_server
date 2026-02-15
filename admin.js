@@ -12,6 +12,15 @@ route.get("/normal",async(req,res)=>{
         res.status(500).json({ error: "Internal Server Error" });
     }
 })
+route.get("/users",async(req,res)=>{
+    try {
+        const data= await db.collection("user").find({}).toArray() 
+        res.json(data)
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: "Internal Server Error" });
+    }
+})
 route.get("/proshow",async(req,res)=>{
     try {
         const data= await db.collection("proshow").find({}).toArray() 

@@ -120,7 +120,7 @@ route.post("/event/normal",async (req,res)=>{
         // Fetch latest user data to check for duplicates
         const dbUser = await db.collection("user").findOne({_id: new ObjectId(user._id)});
         if (!dbUser) return res.status(404).json({ error: "User not found" });
-if(dbUser.events.length >=3 && !proshow){
+if((dbUser?.events?.length||0) >=3 && !proshow){
     return res.status(400).json({ error: "Duplicate registration" });
 }
         const existingEvents = dbUser.events || [];
@@ -150,7 +150,18 @@ if(dbUser.events.length >=3 && !proshow){
             });
         }
 
-        db.collection("user").updateOne({_id:new ObjectId(user._id)},{$push:{events:{$each: newEvents}}})
+ db.collection("user").updateOne(
+  { _id: new ObjectId(user._id) },
+  {
+    $push: {
+      events: {
+        $each: Array.isArray(newEvents) ? newEvents : [newEvents]
+      }
+    }
+  }
+);
+console.log(transactionId,paymentScreenshot,upiId)
+db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{transactionId,paymentScreenshot,upiId}})
         await db.collection("normal").insertOne({event,user,transactionId,paymentScreenshot,upiId, date: new Date()})
         if(proshow){
             db.collection("proshow").insertOne({event,user,transactionId,paymentScreenshot,upiId, date: new Date()})
@@ -182,7 +193,9 @@ route.post("/event/proshow",async (req,res)=>{
         const eventReg=dbUser.events||[]
         if(!eventReg) return res.status(400).json({ error: "please reg for events first" });
         const existingProshows = dbUser.proshow || [];
-        
+        if(!dbUser.events.length >=1){
+            return res.status(400).json({ error: "please reg for events first" });
+        }
         
         const isDuplicate = existingProshows.some(ep => ep.type === event.type);
         if (isDuplicate) {
