@@ -253,7 +253,7 @@ route.post("/decline/:id",async (req,res)=>{
     try {
         const user=await db.collection("user").findOne({_id:new ObjectId(id)})
         db.collection("user").updateOne({_id:new ObjectId(id)},{$set:{verified:false}})
-        db.collection("user").updateOne({_id:new ObjectId(id)},{$set:{paymentScreenshot:"",transactionId:"",upiId:""}})
+        db.collection("user").updateOne({_id:new ObjectId(id)},{$set:{paymentScreenshot:null,transactionId:"",upiId:""}})
         axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
             subject:"Sparkz Event Registration Declined",
