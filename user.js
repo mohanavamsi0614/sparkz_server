@@ -158,7 +158,7 @@ if((dbUser?.events?.length||0) >=3 && !proshow){
             img:paymentScreenshot,
             proshow:proshow,
             accommodation:accommodation,
-            collage:user.collage || "kare",
+            collage:user.college || "kare",
             branch:user.branch,
             year:user.year
         })
