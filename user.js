@@ -151,6 +151,7 @@ if((dbUser?.events?.length||0) >=3 && !proshow){
         );
         axios.post("https://script.google.com/macros/s/AKfycbyEn7uvkW7UOL5x5tjAhRSGCtAh6NZUxnAeMGG2vJ3kXfj-91vCH74hfyq2JReWV8Y6bA/exec",{
             name:user.name,
+            userId:user._id,
             email:user.email,
             event:newEvents.map(e=>e.title).join(", "),
             trans:transactionId,
