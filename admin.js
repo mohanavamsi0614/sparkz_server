@@ -30,4 +30,5 @@ route.get("/proshow",async(req,res)=>{
         res.status(500).json({ error: "Internal Server Error" });
     }
 })
+
 export default route

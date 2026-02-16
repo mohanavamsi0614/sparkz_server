@@ -249,5 +249,26 @@ route.post("/event/proshow",async (req,res)=>{
         res.status(500).json({ error: "Internal Server Error" });
     }
 })
+route.post("/decline/:id",async (req,res)=>{
+    const {id}=req.params
+    try {
+        const user=await db.collection("user").findOne({_id:new ObjectId(id)})
+        db.collection("user").updateOne({_id:new ObjectId(id)},{$set:{verified:false}})
+        db.collection("user").updateOne({_id:new ObjectId(id)},{$set:{paymentScreenshot:"",transactionId:"",upiId:""}})
+        axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
+            to:user.email,
+            subject:"Sparkz Event Registration Declined",
+            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
+            html:`<p>Hello ${user.name},</p>
+            <p>Thank you for your registration for Sparkz events. However, your registration has been declined.</p>
+            <p>Best regards,<br>Sparkz Team</p>`
+        })
+
+        res.json({message:"User Declined successfully"})
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: "Internal Server Error" });
+    }
+})
 
 export default route
