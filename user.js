@@ -180,8 +180,7 @@ if((dbUser?.events?.length||0) >=3 && !proshow){
     }
   }
 );
-console.log(transactionId,paymentScreenshot,upiId)
-db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{transactionId,paymentScreenshot,upiId}})
+db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{transactionId,paymentScreenshot,upiId,accommodation}})
         await db.collection("normal").insertOne({event,user,transactionId,paymentScreenshot,upiId, date: new Date()})
         if(proshow){
             db.collection("proshow").insertOne({event,user,transactionId,paymentScreenshot,upiId, date: new Date()})
