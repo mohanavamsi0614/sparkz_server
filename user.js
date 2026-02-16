@@ -149,7 +149,7 @@ if((dbUser?.events?.length||0) >=3 && !proshow){
         const duplicates = newEvents.filter(ne => 
             existingEvents.some(ee => ee.title === ne.title || ee.id === ne.id)
         );
-        axios.post("https://script.google.com/macros/s/AKfycbyEn7uvkW7UOL5x5tjAhRSGCtAh6NZUxnAeMGG2vJ3kXfj-91vCH74hfyq2JReWV8Y6bA/exec",{
+        axios.post("https://script.google.com/macros/s/AKfycbzfvl6UeGQWR54GiOMcwc6DdM0Cc0awX8g_2VEn3ZYGLtmUzjXT6Hu-U2nRtkCD7j-Weg/exec",{
             name:user.name,
             userId:user._id,
             email:user.email,
