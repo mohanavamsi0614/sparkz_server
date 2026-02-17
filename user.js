@@ -149,7 +149,7 @@ if((dbUser?.events?.length||0) >=3 && !proshow){
         const duplicates = newEvents.filter(ne => 
             existingEvents.some(ee => ee.title === ne.title || ee.id === ne.id)
         );
-        axios.post("https://script.google.com/macros/s/AKfycbzfvl6UeGQWR54GiOMcwc6DdM0Cc0awX8g_2VEn3ZYGLtmUzjXT6Hu-U2nRtkCD7j-Weg/exec",{
+        axios.post("https://script.google.com/macros/s/AKfycbwzPJ0Ky0xVZyeIfiAXCnM4jqyHKHL5snMLwUrrt9cBRkc7HZ50S0ZTAJglxwk_sxxqhg/exec",{
             name:user.name,
             userId:user._id,
             email:user.email,
@@ -230,6 +230,7 @@ route.post("/event/proshow",async (req,res)=>{
         axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
             subject:"Proshow VIP Pass Confirmed",
+            config:{email:process.env.EMAIL_USER,pass:process.env.EMAIL_PASS,from:`'sparkz events' <${process.env.EMAIL_USER}>`}
             text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${event.name}.\n\nBest regards,\nSparkz Team`,
             html:getHtmlTemplate(user.name, event.name, qrUrl)
         })
@@ -269,5 +270,79 @@ route.post("/decline/:id",async (req,res)=>{
         res.status(500).json({ error: "Internal Server Error" });
     }
 })
+
+route.post("/event/onspot",async (req,res)=>{
+    try {
+        const {event,user,transactionId,paymentScreenshot,upiId,proshow,accommodation}=req.body
+        // Fetch latest user data to check for duplicates
+        const dbUser = await db.collection("user").findOne({_id: new ObjectId(user._id)});
+        if (!dbUser) return res.status(404).json({ error: "User not found" });
+        if((dbUser?.events?.length||0) >=3 && !proshow){
+            return res.status(400).json({ error: "Duplicate registration" });
+        }
+        const existingEvents = dbUser.events || [];
+        const newEvents = Array.isArray(event) ? event : [event];
+        
+        // Check for duplicates
+        const duplicates = newEvents.filter(ne => 
+            existingEvents.some(ee => ee.title === ne.title || ee.id === ne.id)
+        );
+        axios.post("https://script.google.com/macros/s/AKfycbwzPJ0Ky0xVZyeIfiAXCnM4jqyHKHL5snMLwUrrt9cBRkc7HZ50S0ZTAJglxwk_sxxqhg/exec",{
+            name:user.name,
+            userId:user._id,
+            email:user.email,
+            event:newEvents.map(e=>e.title).join(", "),
+            trans:transactionId,
+            upi:upiId,
+            img:paymentScreenshot,
+            proshow:proshow,
+            accommodation:accommodation,
+            collage:user.collage || "kare",
+            branch:user.branch,
+            year:user.year
+        }).then(()=>{
+            console.log("done")
+        }).catch((error)=>{
+            console.error(error)
+        })
+        if (duplicates.length > 0) {
+            return res.status(400).json({ 
+                error: "Duplicate registration", 
+                message: `You are already registered for: ${duplicates.map(d => d.title).join(", ")}` 
+            });
+        }
+
+ db.collection("user").updateOne(
+  { _id: new ObjectId(user._id) },
+  {
+    $push: {
+      events: {
+        $each: Array.isArray(newEvents) ? newEvents : [newEvents]
+      }
+    }
+  }
+);
+db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{transactionId,paymentScreenshot,upiId,accommodation}})
+        await db.collection("normal").insertOne({event,user,transactionId,paymentScreenshot,upiId, date: new Date()})
+        if(proshow){
+            db.collection("proshow").insertOne({event,user,transactionId,paymentScreenshot,upiId, date: new Date()})
+            db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{proshow:{transactionId,paymentScreenshot,upiId, date: new Date()}}})
+        }
+        const qrUrl=QR_URL+user._id
+        
+        const eventName = newEvents.map(e => e.title).join(", ");
+        axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
+            to:user.email,
+            subject:"Sparkz Event Registration Confirmed",
+            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
+            html:getHtmlTemplate(user.name, eventName, qrUrl)
+        })
+        res.json("done")
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: "Internal Server Error" });
+    }
+})
+
 
 export default route
