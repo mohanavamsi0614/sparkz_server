@@ -305,6 +305,14 @@ route.post("/event/onspot",async (req,res)=>{
         }).catch((error)=>{
             console.error(error)
         })
+        const eventNme=newEvents.map(e=>e.title).join(", ")
+                axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
+            to:user.email,
+            subject:"Sparkz Event Registration Confirmed",
+            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
+            html:getHtmlTemplate(user.name, eventNme, qrUrl)
+        })
+
         if (duplicates.length > 0) {
             return res.status(400).json({ 
                 error: "Duplicate registration", 
