@@ -230,8 +230,7 @@ route.post("/event/proshow",async (req,res)=>{
         axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
             subject:"Proshow VIP Pass Confirmed",
-            config:{email:process.env.EMAIL_USER,pass:process.env.EMAIL_PASS,from:`'sparkz events' <${process.env.EMAIL_USER}>`}
-            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${event.name}.\n\nBest regards,\nSparkz Team`,
+            config:{email:process.env.EMAIL_USER,pass:process.env.EMAIL_PASS,from:`'sparkz events' <${process.env.EMAIL_USER}>`},
             html:getHtmlTemplate(user.name, event.name, qrUrl)
         })
                 axios.post("https://script.google.com/macros/s/AKfycbyxD9FSxqdjijiqRaot2ZjxHH-BnTKUzrAgoWzodoAEt708Mp16tqOAAKmIrkL36HIWug/exec",{
@@ -309,7 +308,6 @@ route.post("/event/onspot",async (req,res)=>{
                 axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
             subject:"Sparkz Event Registration Confirmed",
-            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
             html:getHtmlTemplate(user.name, eventNme, qrUrl)
         })
 
