@@ -135,7 +135,7 @@ route.post("/verify/:id",async (req,res)=>{
 })
 route.post("/event/normal",async (req,res)=>{
     try {
-        const {event,user,transactionId,paymentScreenshot,upiId,proshow,accommodation}=req.body
+        const {event,user,transactionId,paymentScreenshot,upiId,proshow,accommodation,totalAmount}=req.body
         // Fetch latest user data to check for duplicates
         const dbUser = await db.collection("user").findOne({_id: new ObjectId(user._id)});
         if (!dbUser) return res.status(404).json({ error: "User not found" });
@@ -149,6 +149,12 @@ if((dbUser?.events?.length||0) >=3 && !proshow){
         const duplicates = newEvents.filter(ne => 
             existingEvents.some(ee => ee.title === ne.title || ee.id === ne.id)
         );
+        if (duplicates.length > 0) {
+            return res.status(400).json({ 
+                error: "Duplicate registration", 
+                message: `You are already registered for: ${duplicates.map(d => d.title).join(", ")}` 
+            });
+        }
         axios.post("https://script.google.com/macros/s/AKfycbwzPJ0Ky0xVZyeIfiAXCnM4jqyHKHL5snMLwUrrt9cBRkc7HZ50S0ZTAJglxwk_sxxqhg/exec",{
             name:user.name,
             userId:user._id,
@@ -163,12 +169,6 @@ if((dbUser?.events?.length||0) >=3 && !proshow){
             branch:user.branch,
             year:user.year
         })
-        if (duplicates.length > 0) {
-            return res.status(400).json({ 
-                error: "Duplicate registration", 
-                message: `You are already registered for: ${duplicates.map(d => d.title).join(", ")}` 
-            });
-        }
 
  db.collection("user").updateOne(
   { _id: new ObjectId(user._id) },
@@ -188,7 +188,19 @@ db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{transactionI
         }
         const qrUrl=QR_URL+user._id
         
+            if(totalAmount==0){
+                const qrUrl=QR_URL+user._id
+        
         const eventName = newEvents.map(e => e.title).join(", ");
+        axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
+            to:user.email,
+            subject:"Sparkz Event Registration Confirmed",
+            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
+            html:getHtmlTemplate(user.name, eventName, qrUrl)
+        })
+
+    }
+
         // axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
         //     to:user.email,
         //     subject:"Sparkz Event Registration Confirmed",
