@@ -18,7 +18,7 @@ export const sendWelcomeEmail = async (email, name) => {
       to:email,
       subject:"Welcome to Sparkz!",
       config:{email:process.env.EMAIL_USER,pass:process.env.EMAIL_PASS,from:`'sparkz events' <${process.env.EMAIL_USER}>`},
-      html:`<b>Hello ${name},</b><br><br>Welcome to Sparkz! You have successfully registered.<br><br>Best regards,<br>Sparkz Team`
+      html:`<b>Hello ${name},</b><br><br>Welcome to Sparkz! You have successfully registered your account.<br><br>Best regards,<br>Sparkz Team`
     })
   } catch (error) {
     console.error('Error sending email:', error);
