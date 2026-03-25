@@ -257,7 +257,7 @@ route.post("/decline/:id",async (req,res)=>{
         axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
             subject:"Sparkz Event Registration Declined",
-            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
+            config:{email:process.env.EMAIL_USER,pass:process.env.EMAIL_PASS,from:`'sparkz events' <${process.env.EMAIL_USER}>`},
             html:`<p>Hello ${user.name},</p>
             <p>Thank you for your registration for Sparkz events. However, your registration has been declined.</p>
             <p>Best regards,<br>Sparkz Team</p>`
