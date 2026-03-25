@@ -120,13 +120,18 @@ route.post("/verify/:id",async (req,res)=>{
         db.collection("user").updateOne({_id:new ObjectId(id)},{$set:{verified:true}})
         const qrUrl=QR_URL+user._id
         const eventName = user.events.map(e => e.title).join(", ");
+        try{
         axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
             subject:"Sparkz Event Registration Confirmed",
             config:{email:process.env.EMAIL_USER,pass:process.env.EMAIL_PASS,from:`'sparkz events' <${process.env.EMAIL_USER}>`},
             html:getHtmlTemplate(user.name, eventName, qrUrl)
         })
-
+console.log('sedning')
+        }
+        catch(e){
+            console.log(e)
+        }
         res.json({message:"User verified successfully"})
     } catch (error) {
         console.error(error);
@@ -341,6 +346,7 @@ db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{transactionI
         const qrUrl=QR_URL+user._id
         
         const eventName = newEvents.map(e => e.title).join(", ");
+        try{
         axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
             subject:"Sparkz Event Registration Confirmed",
@@ -348,7 +354,12 @@ db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{transactionI
             html:getHtmlTemplate(user.name, eventName, qrUrl)
         })
         console.log("sending maill")
+    }
+    catch(e){
+        console.log(e)
+    }
         res.json("done")
+
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: "Internal Server Error" });
