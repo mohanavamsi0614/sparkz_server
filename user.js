@@ -123,7 +123,7 @@ route.post("/verify/:id",async (req,res)=>{
         axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
             subject:"Sparkz Event Registration Confirmed",
-            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
+            config:{email:process.env.EMAIL_USER,pass:process.env.EMAIL_PASS,from:`'sparkz events' <${process.env.EMAIL_USER}>`},
             html:getHtmlTemplate(user.name, eventName, qrUrl)
         })
 
@@ -333,7 +333,7 @@ db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{transactionI
         axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
             to:user.email,
             subject:"Sparkz Event Registration Confirmed",
-            text:`Hello ${user.name},\n\nWelcome to Sparkz! You have successfully registered for ${eventName}.\n\nBest regards,\nSparkz Team`,
+            config:{email:process.env.EMAIL_USER,pass:process.env.EMAIL_PASS,from:`'sparkz events' <${process.env.EMAIL_USER}>`},
             html:getHtmlTemplate(user.name, eventName, qrUrl)
         })
         res.json("done")
