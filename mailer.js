@@ -17,7 +17,7 @@ export const sendWelcomeEmail = async (email, name) => {
     axios.post("https://7feej0sxm3.execute-api.eu-north-1.amazonaws.com/default/mail_sender",{
       to:email,
       subject:"Welcome to Sparkz!",
-      text:`Hello ${name},\n\nWelcome to Sparkz! You have successfully registered.\n\nBest regards,\nSparkz Team`,
+      config:{email:process.env.EMAIL_USER,pass:process.env.EMAIL_PASS,from:`'sparkz events' <${process.env.EMAIL_USER}>`},
       html:`<b>Hello ${name},</b><br><br>Welcome to Sparkz! You have successfully registered.<br><br>Best regards,<br>Sparkz Team`
     })
   } catch (error) {
