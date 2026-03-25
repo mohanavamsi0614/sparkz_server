@@ -276,9 +276,9 @@ route.post("/event/onspot",async (req,res)=>{
         // Fetch latest user data to check for duplicates
         const dbUser = await db.collection("user").findOne({_id: new ObjectId(user._id)});
         if (!dbUser) return res.status(404).json({ error: "User not found" });
-        // if((dbUser?.events?.length||0) >=3 && !proshow){
-        //     return res.status(400).json({ error: "Duplicate registration" });
-        // }
+        if((dbUser?.events?.length||0) >=3 && !proshow){
+            return res.status(400).json({ error: "Duplicate registration" });
+        }
         const existingEvents = dbUser.events || [];
         const newEvents = Array.isArray(event) ? event : [event];
         
@@ -286,11 +286,11 @@ route.post("/event/onspot",async (req,res)=>{
         const duplicates = newEvents.filter(ne => 
             existingEvents.some(ee => ee.title === ne.title || ee.id === ne.id)
         );
-        // if (duplicates.length > 0) {
-        //     return res.status(400).json({ 
-        //         message: `You are already registered for: ${duplicates.map(d => d.title).join(", ")}` 
-        //     });
-        // }
+        if (duplicates.length > 0) {
+            return res.status(400).json({ 
+                message: `You are already registered for: ${duplicates.map(d => d.title).join(", ")}` 
+            });
+        }
         axios.post("https://script.google.com/macros/s/AKfycbwzPJ0Ky0xVZyeIfiAXCnM4jqyHKHL5snMLwUrrt9cBRkc7HZ50S0ZTAJglxwk_sxxqhg/exec",{
             name:user.name,
             userId:user._id,
