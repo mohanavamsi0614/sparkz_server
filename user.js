@@ -306,7 +306,6 @@ route.post("/event/onspot",async (req,res)=>{
         })
         if (duplicates.length > 0) {
             return res.status(400).json({ 
-                error: "Duplicate registration", 
                 message: `You are already registered for: ${duplicates.map(d => d.title).join(", ")}` 
             });
         }
