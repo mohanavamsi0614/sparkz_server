@@ -335,7 +335,8 @@ route.post("/event/onspot",async (req,res)=>{
       events: {
         $each: Array.isArray(newEvents) ? newEvents : [newEvents]
       }
-    }
+    },
+    $set:{accommodation:accommodation}
   }
 );
 db.collection("user").updateOne({_id:new ObjectId(user._id)},{$set:{transactionId,paymentScreenshot,upiId,accommodation}})
